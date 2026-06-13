@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f6f7fb">
+    <title>跑台英文辨認練習</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Anatomy Runway</p>
+          <h1>跑台英文辨認練習</h1>
+        </div>
+        <button class="ghost-button" id="resetButton" type="button">重置</button>
+      </header>
+
+      <section class="control-row" aria-label="練習篩選">
+        <label class="select-wrap">
+          <span>章節</span>
+          <select id="sectionSelect"></select>
+        </label>
+        <label class="toggle-wrap">
+          <input id="markedOnly" type="checkbox">
+          <span>重點</span>
+        </label>
+      </section>
+
+      <section class="stats-strip" aria-label="練習紀錄">
+        <div>
+          <span class="stat-value" id="seenStat">0</span>
+          <span class="stat-label">已練</span>
+        </div>
+        <div>
+          <span class="stat-value" id="accuracyStat">--</span>
+          <span class="stat-label">正確率</span>
+        </div>
+        <div>
+          <span class="stat-value" id="poolStat">0</span>
+          <span class="stat-label">題庫</span>
+        </div>
+      </section>
+
+      <section class="quiz-panel" aria-live="polite">
+        <div class="card-meta">
+          <span id="sectionBadge"></span>
+          <span id="markedBadge" hidden>原標示</span>
+        </div>
+
+        <div class="prompt-block">
+          <p class="prompt-label">中文</p>
+          <h2 id="chinesePrompt"></h2>
+          <p class="prompt-label">跑台提示</p>
+          <p id="hintPrompt" class="hint-text"></p>
+        </div>
+
+        <div class="history-row" id="historyRow" aria-label="本題作答紀錄"></div>
+
+        <div class="option-grid" id="optionGrid"></div>
+
+        <div class="feedback" id="feedback" hidden>
+          <p id="resultText"></p>
+          <strong id="answerText"></strong>
+          <p id="noteText"></p>
+        </div>
+      </section>
+
+      <nav class="action-row" aria-label="練習操作">
+        <button class="secondary-button" id="skipButton" type="button">換題</button>
+        <button class="primary-button" id="nextButton" type="button">下一題</button>
+      </nav>
+    </main>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
