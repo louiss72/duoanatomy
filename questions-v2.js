@@ -1,11 +1,19 @@
 window.ANATOMY_QUESTIONS = [
   {
     "section": "咀嚼肌與表情肌",
-    "english": "orbicularis oris / orbicularis oculi m.",
-    "hint": "X圍繞口裂，X圍繞眼裂；跑台看到環狀包住開口的薄肌，就先用開口位置判斷。",
+    "english": "orbicularis oris m.",
+    "hint": "X圍繞口裂，跑台看到環狀包住開口的薄肌。",
     "note": "",
     "marked": false,
-    "id": "q001-orbicularis-oris-orbicularis-oculi-m"
+    "id": "q001-orbicularis-oris-m"
+  },
+  {
+    "section": "咀嚼肌與表情肌",
+    "english": "orbicularis oculi m.",
+    "hint": "X圍繞眼裂；跑台看到環狀包住開口的薄肌。",
+    "note": "",
+    "marked": false,
+    "id": "q002-orbicularis-oculi-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -13,15 +21,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "位在頰部深層，纖維水平，若看到腮腺管鑽入的那片頰壁肌肉就是它。",
     "note": "容易遺忘",
     "marked": true,
-    "id": "q002-buccinator-m"
+    "id": "q003-buccinator-m"
   },
   {
     "section": "咀嚼肌與表情肌",
-    "english": "levator / depressor anguli oris m.",
-    "hint": "都連到口角；X在上方較深，X由下頷骨斜上到口角。",
+    "english": "levator anguli oris m.",
+    "hint": "都連到口角；X在上方較深。",
     "note": "",
     "marked": true,
-    "id": "q003-levator-depressor-anguli-oris-m"
+    "id": "q004-levator-anguli-oris-m"
+  },
+  {
+    "section": "咀嚼肌與表情肌",
+    "english": "depressor anguli oris m.",
+    "hint": "都連到口角；X由下頷骨斜上到口角。",
+    "note": "",
+    "marked": true,
+    "id": "q005-depressor-anguli-oris-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -29,15 +45,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "口角外側的薄片狀肌，纖維幾乎水平往外側拉到腮腺咬肌筋膜。",
     "note": "",
     "marked": false,
-    "id": "q004-risorius-m"
+    "id": "q006-risorius-m"
   },
   {
     "section": "咀嚼肌與表情肌",
-    "english": "zygomaticus major / minor m.",
-    "hint": "從顴骨斜向下內側到上唇或口角；X較外下、到口角，X較內上、到上唇。",
+    "english": "zygomaticus major m.",
+    "hint": "從顴骨斜向下內側到上唇或口角；X較外下、到口角。",
     "note": "",
     "marked": true,
-    "id": "q005-zygomaticus-major-minor-m"
+    "id": "q007-zygomaticus-major-m"
+  },
+  {
+    "section": "咀嚼肌與表情肌",
+    "english": "zygomaticus minor m.",
+    "hint": "從顴骨斜向下內側到上唇或口角；X較內上、到上唇。",
+    "note": "",
+    "marked": true,
+    "id": "q008-zygomaticus-minor-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -45,7 +69,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "鼻根與眉間之間的小肌肉，常以短小縱向纖維出現。",
     "note": "",
     "marked": false,
-    "id": "q006-procerus-m"
+    "id": "q009-procerus-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -53,7 +77,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "位在鼻翼外側與眶下緣附近，纖維往下到上唇；和顴小肌相近時看附著與走向。",
     "note": "位置相近，注意纖維走向與附著",
     "marked": true,
-    "id": "q007-levator-labii-superioris-m"
+    "id": "q010-levator-labii-superioris-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -61,7 +85,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "下頷骨前外側往上內側到下唇，位在降口角肌內側。",
     "note": "",
     "marked": false,
-    "id": "q008-depressor-labii-inferioris-m"
+    "id": "q011-depressor-labii-inferioris-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -69,7 +93,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "額部皮下薄肌，垂直纖維往上接帽狀腱膜，表面很薄。",
     "note": "",
     "marked": false,
-    "id": "q009-frontalis-m"
+    "id": "q012-frontalis-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -77,7 +101,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "枕部皮下薄肌，接帽狀腱膜後方；位置在後頭皮而非額部。",
     "note": "",
     "marked": false,
-    "id": "q010-occipitalis-m"
+    "id": "q013-occipitalis-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -85,7 +109,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "下唇正下方、下巴中央的小束肌，纖維短而偏垂直。",
     "note": "",
     "marked": false,
-    "id": "q011-mentalis-m"
+    "id": "q014-mentalis-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -93,7 +117,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "頸前外側極薄的皮肌，常像碎肉或薄膜；與臉下部相連，別和頸深肌混淆。",
     "note": "桃紅這兩個肌肉位置很近，可能用碎肉考",
     "marked": true,
-    "id": "q012-platysma-m"
+    "id": "q015-platysma-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -101,7 +125,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "顴弓到下頷角的厚肌，覆在下頷支外側；摸起來最厚、最方正。",
     "note": "",
     "marked": false,
-    "id": "q013-masseter-m"
+    "id": "q016-masseter-m"
   },
   {
     "section": "咀嚼肌與表情肌",
@@ -109,15 +133,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "顳窩內扇形肌，肌束向下集中到冠突；掀開顳筋膜後很明顯。",
     "note": "",
     "marked": false,
-    "id": "q014-temporalis-m"
+    "id": "q017-temporalis-m"
   },
   {
     "section": "咀嚼肌與表情肌",
-    "english": "lateral / medial pterygoid m.",
-    "hint": "翼肌在下頷支內側深處；X多呈水平走向到下頷頸，X較垂直斜向下後方到下頷角內側。",
+    "english": "lateral pterygoid m.",
+    "hint": "翼肌在下頷支內側深處；X多呈水平走向到下頷頸。",
     "note": "",
     "marked": false,
-    "id": "q015-lateral-medial-pterygoid-m"
+    "id": "q018-lateral-pterygoid-m"
+  },
+  {
+    "section": "咀嚼肌與表情肌",
+    "english": "medial pterygoid m.",
+    "hint": "翼肌在下頷支內側深處；X較垂直斜向下後方到下頷角內側。",
+    "note": "",
+    "marked": false,
+    "id": "q019-medial-pterygoid-m"
   },
   {
     "section": "眼外肌",
@@ -125,7 +157,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "在眼眶上方、上直肌上面，細長往前接上眼瞼。",
     "note": "",
     "marked": true,
-    "id": "q016-levator-palpebrae-superioris-m"
+    "id": "q020-levator-palpebrae-superioris-m"
   },
   {
     "section": "眼外肌",
@@ -133,7 +165,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "位在眼球正上方，常作為判斷眼眶方向的定位肌。",
     "note": "定位方向用的肌肉",
     "marked": true,
-    "id": "q017-superior-rectus-m"
+    "id": "q021-superior-rectus-m"
   },
   {
     "section": "眼外肌",
@@ -141,7 +173,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "眼球下方直行到鞏膜，和下斜肌交叉時看是否從共同腱環直走出來。",
     "note": "",
     "marked": false,
-    "id": "q018-inferior-rectus-m"
+    "id": "q022-inferior-rectus-m"
   },
   {
     "section": "眼外肌",
@@ -149,7 +181,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "眼球外側直行，接近外展神經；外側壁旁最直接。",
     "note": "",
     "marked": false,
-    "id": "q019-lateral-rectus-m"
+    "id": "q023-lateral-rectus-m"
   },
   {
     "section": "眼外肌",
@@ -157,7 +189,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "眼球內側直行，通常比外直肌較寬，貼近內側眶壁。",
     "note": "",
     "marked": false,
-    "id": "q020-medial-rectus-m"
+    "id": "q024-medial-rectus-m"
   },
   {
     "section": "眼外肌",
@@ -165,7 +197,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "眼眶上內側走向滑車，經滑車後轉向眼球；看到滑車是關鍵。",
     "note": "",
     "marked": false,
-    "id": "q021-superior-oblique-m"
+    "id": "q025-superior-oblique-m"
   },
   {
     "section": "眼外肌",
@@ -173,7 +205,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "從眼眶前內下方斜向後外上，和直肌的直線走向不同。",
     "note": "",
     "marked": false,
-    "id": "q022-inferior-oblique-m"
+    "id": "q026-inferior-oblique-m"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -181,7 +213,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "在頸動脈鞘內、內頸靜脈內側，往上分成內外頸動脈；管壁厚、彈性好。",
     "note": "",
     "marked": false,
-    "id": "q023-common-carotid-a"
+    "id": "q027-common-carotid-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -189,7 +221,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "分支很多、往臉與頭皮供血；若在頸部陸續發出甲狀腺、舌、顏面等分支，多為X。",
     "note": "",
     "marked": false,
-    "id": "q024-external-carotid-a"
+    "id": "q028-external-carotid-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -197,7 +229,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "外頸動脈前方低位分支，往甲狀腺上極走。",
     "note": "",
     "marked": false,
-    "id": "q025-superior-thyroid-a"
+    "id": "q029-superior-thyroid-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -205,15 +237,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "往舌骨與舌部深處走；常在舌骨大角附近尋找。",
     "note": "",
     "marked": false,
-    "id": "q026-lingual-a"
+    "id": "q030-lingual-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "dorsal lingual / deep lingual a.",
-    "hint": "X供舌背，X沿舌下深部往舌尖；看分支進入舌的位置。",
+    "english": "dorsal lingual a.",
+    "hint": "X供X，看分支進入舌的位置。",
     "note": "",
     "marked": false,
-    "id": "q027-dorsal-lingual-deep-lingual-a"
+    "id": "q031-dorsal-lingual-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "deep lingual a.",
+    "hint": "X沿舌下深部往舌尖；看分支進入舌的位置。",
+    "note": "",
+    "marked": false,
+    "id": "q032-deep-lingual-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -221,7 +261,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由下頷骨下緣、咬肌前緣附近繞到臉上，走行彎曲且管壁較厚。",
     "note": "",
     "marked": true,
-    "id": "q028-facial-a"
+    "id": "q033-facial-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -229,15 +269,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "沿下頷骨下緣與下頷舌骨肌附近前行。",
     "note": "",
     "marked": false,
-    "id": "q029-submental-a"
+    "id": "q034-submental-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "superior / inferior labial a.",
-    "hint": "由顏面動脈分出，沿上、下唇緣橫行；題目若綁唇緣血管，看高度判斷。",
+    "english": "superior labial a.",
+    "hint": "由顏面動脈分出，沿上、X緣橫行；題目若綁唇緣血管，看高度判斷。",
     "note": "",
     "marked": true,
-    "id": "q030-superior-inferior-labial-a"
+    "id": "q035-superior-labial-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "inferior labial a.",
+    "hint": "由顏面動脈分出，沿上、X緣橫行。",
+    "note": "",
+    "marked": true,
+    "id": "q036-inferior-labial-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -245,7 +293,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "顏面動脈末端到內眼角；可由顏面動脈沿鼻側向上追。",
     "note": "",
     "marked": true,
-    "id": "q031-angular-a"
+    "id": "q037-angular-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -253,7 +301,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "供鼻翼外側；位在鼻側但不到內眼角。",
     "note": "",
     "marked": false,
-    "id": "q032-lateral-nasal-a"
+    "id": "q038-lateral-nasal-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -261,7 +309,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "外頸動脈內側小分支，往咽壁上行，通常較細。",
     "note": "",
     "marked": false,
-    "id": "q033-ascending-pharyngeal-a"
+    "id": "q039-ascending-pharyngeal-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -269,15 +317,15 @@ window.ANATOMY_QUESTIONS = [
     "hint": "往後上方走到枕部頭皮，常在乳突附近向後繞。",
     "note": "",
     "marked": false,
-    "id": "q034-occipital-a"
+    "id": "q040-occipital-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
     "english": "posterior auricular a.",
-    "hint": "在耳廓後方上行，較枕動脈更貼耳後。",
+    "hint": "在耳廓後方上行，較枕動脈更貼X。",
     "note": "",
     "marked": false,
-    "id": "q035-posterior-auricular-a"
+    "id": "q041-posterior-auricular-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -285,55 +333,95 @@ window.ANATOMY_QUESTIONS = [
     "hint": "外頸動脈深部分支，進入顳下窩；分支多，常和翼肌、下齒槽神經相鄰。",
     "note": "",
     "marked": true,
-    "id": "q036-maxillary-a"
+    "id": "q042-maxillary-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "deep auricular / anterior tympanic a.",
+    "english": "deep auricular a.",
     "hint": "上頷動脈小分支，往外耳道或鼓室方向走；通常以走向判斷。",
     "note": "",
     "marked": false,
-    "id": "q037-deep-auricular-anterior-tympanic-a"
+    "id": "q043-deep-auricular-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "middle meningeal / accessory meningeal a.",
-    "hint": "X由棘孔進顱、管徑較明顯；X較小。",
+    "english": "anterior tympanic a.",
+    "hint": "上頷動脈小分支，往外耳道或鼓室方向走；通常以走向判斷。",
+    "note": "",
+    "marked": false,
+    "id": "q044-anterior-tympanic-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "middle meningeal a.",
+    "hint": "X由棘孔進顱、管徑較明顯。",
     "note": "",
     "marked": true,
-    "id": "q038-middle-meningeal-accessory-meningeal-a"
+    "id": "q045-middle-meningeal-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "inferior alveolar a. / mylohyoid a.",
+    "english": "accessory meningeal a.",
+    "hint": "棘孔附近較小的腦膜分支，管徑比主要腦膜分支小。",
+    "note": "",
+    "marked": true,
+    "id": "q046-accessory-meningeal-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "inferior alveolar a.",
     "hint": "主要分支進下頷孔；入孔前另有小分支沿下頷骨內側的溝走。",
     "note": "",
     "marked": false,
-    "id": "q039-inferior-alveolar-a-mylohyoid-a"
+    "id": "q047-inferior-alveolar-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "deep temporal a. (anterior / posterior br.)",
+    "english": "mylohyoid a.",
+    "hint": "主要分支進下頷孔；入孔前另有小分支沿下頷骨內側的溝走。",
+    "note": "",
+    "marked": false,
+    "id": "q048-mylohyoid-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "deep temporal a. anterior br.",
     "hint": "往顳肌深面上行，常和深顳神經伴行；看它是否進顳肌。",
     "note": "",
     "marked": false,
-    "id": "q040-deep-temporal-a-anterior-posterior-br"
+    "id": "q049-deep-temporal-a-anterior-br"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "lateral / medial pterygoid a.",
+    "english": "deep temporal a. posterior br.",
+    "hint": "往顳肌深面上行，常和深顳神經伴行；看它是否進顳肌。",
+    "note": "",
+    "marked": false,
+    "id": "q050-deep-temporal-a-posterior-br"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "lateral pterygoid a.",
     "hint": "短小肌支，直接進入對應翼肌；以進入哪一塊翼肌命名。",
     "note": "",
     "marked": false,
-    "id": "q041-lateral-medial-pterygoid-a"
+    "id": "q051-lateral-pterygoid-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "medial pterygoid a.",
+    "hint": "短小肌支，直接進入對應翼肌；以進入哪一塊翼肌命名。",
+    "note": "",
+    "marked": false,
+    "id": "q052-medial-pterygoid-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
     "english": "masseteric a.",
-    "hint": "穿過下頷切跡到咬肌深面；看到往咬肌的短支就是它。",
+    "hint": "穿過下頷切跡到X深面；看到往X的短支就是它。",
     "note": "",
     "marked": false,
-    "id": "q042-masseteric-a"
+    "id": "q053-masseteric-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -341,7 +429,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "往頰肌與頰黏膜走，常和頰神經同區。",
     "note": "",
     "marked": false,
-    "id": "q043-buccal-a"
+    "id": "q054-buccal-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -349,47 +437,55 @@ window.ANATOMY_QUESTIONS = [
     "hint": "往上頷後牙與上頷竇後外側壁；在上頷骨後面找。",
     "note": "",
     "marked": false,
-    "id": "q044-posterior-superior-alveolar-a"
+    "id": "q055-posterior-superior-alveolar-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
     "english": "sphenopalatine a.",
-    "hint": "經蝶腭孔進鼻腔，是鼻腔後部重要血管。",
+    "hint": "經X孔進鼻腔，是鼻腔後部重要血管。",
     "note": "",
     "marked": false,
-    "id": "q045-sphenopalatine-a"
+    "id": "q056-sphenopalatine-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
     "english": "infraorbital a.",
-    "hint": "經眶下溝、眶下管到眶下孔；眶下孔附近常與神經、靜脈成束。",
+    "hint": "經X溝、X管到X孔；X孔附近常與神經、靜脈成束。",
     "note": "",
     "marked": true,
-    "id": "q046-infraorbital-a"
+    "id": "q057-infraorbital-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "middle / anterior superior alveolar a.",
+    "english": "middle superior alveolar a.",
     "hint": "由眶下動脈分出，進上頷骨供前中牙；看是否從眶下走向牙槽。",
     "note": "",
     "marked": false,
-    "id": "q047-middle-anterior-superior-alveolar-a"
+    "id": "q058-middle-superior-alveolar-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "anterior superior alveolar a.",
+    "hint": "由眶下動脈分出，進上頷骨供前中牙；看是否從眶下走向牙槽。",
+    "note": "",
+    "marked": false,
+    "id": "q059-anterior-superior-alveolar-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
     "english": "greater palatine a.",
-    "hint": "經大腭孔到硬腭，沿硬腭向前走。",
+    "hint": "經X孔到硬腭，沿硬腭向前走。",
     "note": "",
     "marked": false,
-    "id": "q048-greater-palatine-a"
+    "id": "q060-greater-palatine-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
     "english": "superficial temporal a.",
-    "hint": "在耳前、顴弓上方搏動明顯，常和耳顳神經、淺顳靜脈同行。",
+    "hint": "在耳前、顴弓上方搏動明顯，常和耳顳神經、X靜脈同行。",
     "note": "",
     "marked": true,
-    "id": "q049-superficial-temporal-a"
+    "id": "q061-superficial-temporal-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -397,7 +493,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由淺顳動脈分出，橫過咬肌表面、位在顴弓下方。",
     "note": "",
     "marked": true,
-    "id": "q050-transverse-facial-a"
+    "id": "q062-transverse-facial-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -405,15 +501,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "頸部不發分支，往顱內走；若在顱內看到進入威利氏環的供血，優先追來源。",
     "note": "",
     "marked": false,
-    "id": "q051-internal-carotid-a"
+    "id": "q063-internal-carotid-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "anterior cerebral / anterior communicating a.",
+    "english": "anterior cerebral a.",
     "hint": "X在大腦縱裂旁；X橫接左右X。",
     "note": "威利氏環相關結構要熟",
     "marked": true,
-    "id": "q052-anterior-cerebral-anterior-communicating-a"
+    "id": "q064-anterior-cerebral-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "anterior communicating a.",
+    "hint": "威利氏環前方短橫支，連接左右 anterior cerebral a.。",
+    "note": "威利氏環相關結構要熟",
+    "marked": true,
+    "id": "q065-anterior-communicating-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -421,15 +525,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由內頸動脈向外側進入外側溝，是顱底較粗的外側走向分支。",
     "note": "",
     "marked": true,
-    "id": "q053-middle-cerebral-a"
+    "id": "q066-middle-cerebral-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "posterior communicating / posterior cerebral a.",
-    "hint": "X連內頸與X；X繞中腦往後。",
+    "english": "posterior communicating a.",
+    "hint": "連接 internal carotid a. 與 posterior cerebral a. 的短支。",
     "note": "",
     "marked": true,
-    "id": "q054-posterior-communicating-posterior-cerebral-a"
+    "id": "q067-posterior-communicating-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "posterior cerebral a.",
+    "hint": "繞中腦往後，屬威利氏環後方供血。",
+    "note": "",
+    "marked": true,
+    "id": "q068-posterior-cerebral-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -437,15 +549,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "位在腦橋腹側正中，由左右椎動脈合成，往上分出後大腦動脈。",
     "note": "",
     "marked": true,
-    "id": "q055-basilar-a"
+    "id": "q069-basilar-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "superior cerebellar / pontine a.",
-    "hint": "X從基底動脈上端向外後方；X是基底動脈短小橫支進腦橋。",
+    "english": "superior cerebellar a.",
+    "hint": "X從基底動脈上端向外後方。",
     "note": "",
     "marked": true,
-    "id": "q056-superior-cerebellar-pontine-a"
+    "id": "q070-superior-cerebellar-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "superior pontine a.",
+    "hint": "X是基底動脈短小橫支進X。",
+    "note": "",
+    "marked": true,
+    "id": "q071-superior-pontine-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -453,15 +573,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "很細，常跟前下小腦動脈或基底動脈相關，往內耳道方向。",
     "note": "",
     "marked": false,
-    "id": "q057-labyrinthine-a"
+    "id": "q072-labyrinthine-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "anterior inferior / posterior inferior cerebellar a.",
+    "english": "anterior inferior cerebellar a.",
     "hint": "AICA 位在腦橋下部外側，PICA 繞延髓到小腦下後方；看走向再作答。",
     "note": "這三條常錯",
     "marked": true,
-    "id": "q058-anterior-inferior-posterior-inferior-cerebellar-"
+    "id": "q073-anterior-inferior-cerebellar-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "posterior inferior cerebellar a.",
+    "hint": "AICA 位在腦橋下部外側，PICA 繞延髓到小腦下後方；看走向再作答。",
+    "note": "這三條常錯",
+    "marked": true,
+    "id": "q074-posterior-inferior-cerebellar-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -469,15 +597,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由內頸動脈入視神經管進眼眶，眼眶內許多小分支都可由它往回追。",
     "note": "遲早會考",
     "marked": true,
-    "id": "q059-ophthalmic-a"
+    "id": "q075-ophthalmic-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "lacrimal / central retinal a.",
-    "hint": "X往眼眶外上方淚腺；X伴視神經進入眼球。",
+    "english": "lacrimal a.",
+    "hint": "X往眼眶外上方X。",
     "note": "",
     "marked": true,
-    "id": "q060-lacrimal-central-retinal-a"
+    "id": "q076-lacrimal-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "central retinal a.",
+    "hint": "X伴視神經進入眼球。",
+    "note": "",
+    "marked": true,
+    "id": "q077-central-retinal-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
@@ -485,31 +621,63 @@ window.ANATOMY_QUESTIONS = [
     "hint": "視神經周圍進入眼球後方，通常多條細小分支。",
     "note": "",
     "marked": false,
-    "id": "q061-posterior-ciliary-a"
+    "id": "q078-posterior-ciliary-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "anterior / posterior ethmoidal a.",
+    "english": "anterior ethmoidal a.",
     "hint": "在眼眶內側壁附近穿篩孔；很容易被忽略，定位靠內側壁與篩骨。",
     "note": "容易忘記",
     "marked": true,
-    "id": "q062-anterior-posterior-ethmoidal-a"
+    "id": "q079-anterior-ethmoidal-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "lateral / medial palpebral a.",
-    "hint": "沿眼瞼邊緣走，外側、內側依來源位置判斷。",
+    "english": "posterior ethmoidal a.",
+    "hint": "在眼眶內側壁附近穿篩孔；很容易被忽略，定位靠內側壁與篩骨。",
+    "note": "容易忘記",
+    "marked": true,
+    "id": "q080-posterior-ethmoidal-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "lateral palpebral a.",
+    "hint": "沿眼瞼邊緣走，X、X依來源位置判斷。",
     "note": "",
     "marked": false,
-    "id": "q063-lateral-medial-palpebral-a"
+    "id": "q081-lateral-palpebral-a"
   },
   {
     "section": "總頸動脈、外頸動脈與 內頸動脈分支",
-    "english": "external nasal / supraorbital / supratrochlear a.",
-    "hint": "X到鼻背外側；眶上、X分別經眶上切跡與內上眶緣到額部。",
+    "english": "medial palpebral a.",
+    "hint": "沿眼瞼邊緣走，X、X依來源位置判斷。",
+    "note": "",
+    "marked": false,
+    "id": "q082-medial-palpebral-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "external nasal a.",
+    "hint": "X到鼻背外側。",
     "note": "",
     "marked": true,
-    "id": "q064-external-nasal-supraorbital-supratrochlear-a"
+    "id": "q083-external-nasal-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "external supraorbital a.",
+    "hint": "X、X分別經X切跡與內上眶緣到額部。",
+    "note": "",
+    "marked": true,
+    "id": "q084-external-supraorbital-a"
+  },
+  {
+    "section": "總頸動脈、外頸動脈與 內頸動脈分支",
+    "english": "external supratrochlear a.",
+    "hint": "X、X分別經X切跡與內上眶緣到額部。",
+    "note": "",
+    "marked": true,
+    "id": "q085-external-supratrochlear-a"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
@@ -517,15 +685,15 @@ window.ANATOMY_QUESTIONS = [
     "hint": "頸動脈鞘內最外側、管徑大且容易扁塌；顏面靜脈常匯入它。",
     "note": "",
     "marked": false,
-    "id": "q065-internal-jugular-v"
+    "id": "q086-internal-jugular-v"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
     "english": "facial v.",
-    "hint": "較顏面動脈直、壁薄，常在咬肌前緣附近貼下頷骨外側下行。",
+    "hint": "較X動脈直、壁薄，常在咬肌前緣附近貼下頷骨外側下行。",
     "note": "",
     "marked": true,
-    "id": "q066-facial-v"
+    "id": "q087-facial-v"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
@@ -533,7 +701,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "位於內眼角，往下連顏面靜脈；和 angular a. 一起考時看壁厚與是否扁塌。",
     "note": "",
     "marked": true,
-    "id": "q067-angular-v"
+    "id": "q088-angular-v"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
@@ -541,63 +709,119 @@ window.ANATOMY_QUESTIONS = [
     "hint": "橫過咬肌表面，與同名動脈伴行。",
     "note": "",
     "marked": true,
-    "id": "q068-transverse-facial-v"
+    "id": "q089-transverse-facial-v"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
-    "english": "superior / inferior labial v.",
+    "english": "superior labial v.",
     "hint": "沿唇緣走，較動脈薄且常塌陷。",
     "note": "",
     "marked": true,
-    "id": "q069-superior-inferior-labial-v"
+    "id": "q090-superior-labial-v"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
-    "english": "lateral nasal / dorsal nasal v.",
-    "hint": "鼻側或鼻背表淺靜脈，常可追到內眥附近。",
+    "english": "inferior labial v.",
+    "hint": "沿唇緣走，較動脈薄且常塌陷。",
+    "note": "",
+    "marked": true,
+    "id": "q091-inferior-labial-v"
+  },
+  {
+    "section": "靜脈與硬腦膜靜脈竇",
+    "english": "lateral nasal v.",
+    "hint": "鼻側或X表淺靜脈，常可追到內眥附近。",
     "note": "",
     "marked": false,
-    "id": "q070-lateral-nasal-dorsal-nasal-v"
+    "id": "q092-lateral-nasal-v"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
-    "english": "supraorbital / infraorbital / supratrochlear v.",
+    "english": "dorsal nasal v.",
+    "hint": "鼻側或X表淺靜脈，常可追到內眥附近。",
+    "note": "",
+    "marked": false,
+    "id": "q093-dorsal-nasal-v"
+  },
+  {
+    "section": "靜脈與硬腦膜靜脈竇",
+    "english": "supraorbital v.",
     "hint": "常與同名動脈、神經成束；如果整束被綁，答 vessels and nerve。",
     "note": "",
     "marked": true,
-    "id": "q071-supraorbital-infraorbital-supratrochlear-v"
+    "id": "q094-supraorbital-v"
+  },
+  {
+    "section": "靜脈與硬腦膜靜脈竇",
+    "english": "infraorbital v.",
+    "hint": "常與同名動脈、神經成束；如果整束被綁，答 vessels and nerve。",
+    "note": "",
+    "marked": true,
+    "id": "q095-infraorbital-v"
+  },
+  {
+    "section": "靜脈與硬腦膜靜脈竇",
+    "english": "supratrochlear v.",
+    "hint": "常與同名動脈、神經成束；如果整束被綁，答 vessels and nerve。",
+    "note": "",
+    "marked": true,
+    "id": "q096-supratrochlear-v"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
     "english": "superficial temporal v.",
-    "hint": "耳前與淺顳動脈同行，壁薄、較扁。",
+    "hint": "耳前與X動脈同行，壁薄、較扁。",
     "note": "",
     "marked": true,
-    "id": "q072-superficial-temporal-v"
+    "id": "q097-superficial-temporal-v"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
-    "english": "superior / inferior sagittal sinus",
-    "hint": "X沿大腦鐮上緣，X沿大腦鐮下緣。",
+    "english": "superior sagittal sinus",
+    "hint": "X沿大腦鐮上緣。",
     "note": "",
     "marked": false,
-    "id": "q073-superior-inferior-sagittal-sinus"
+    "id": "q098-superior-sagittal-sinus"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
-    "english": "straight sinus / confluence of sinuses",
-    "hint": "X在大腦鐮與小腦幕交界；X在枕內隆凸附近，是多個竇會合處。",
+    "english": "inferior sagittal sinus",
+    "hint": "X沿大腦鐮下緣。",
     "note": "",
     "marked": false,
-    "id": "q074-straight-sinus-confluence-of-sinuses"
+    "id": "q099-inferior-sagittal-sinus"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
-    "english": "transverse / sigmoid sinus",
-    "hint": "X沿小腦幕後緣橫行；X呈 S 形下行到頸靜脈孔。",
+    "english": "straight sinus",
+    "hint": "X在大腦鐮與小腦幕交界；是多個竇會合處。",
     "note": "",
     "marked": false,
-    "id": "q075-transverse-sigmoid-sinus"
+    "id": "q100-straight-sinus"
+  },
+  {
+    "section": "靜脈與硬腦膜靜脈竇",
+    "english": "confluence of sinuses",
+    "hint": "X在枕內隆凸附近，是多個竇會合處。",
+    "note": "",
+    "marked": false,
+    "id": "q101-confluence-of-sinuses"
+  },
+  {
+    "section": "靜脈與硬腦膜靜脈竇",
+    "english": "transverse sinus",
+    "hint": "X沿小腦幕後緣橫行。",
+    "note": "",
+    "marked": false,
+    "id": "q102-transverse-sinus"
+  },
+  {
+    "section": "靜脈與硬腦膜靜脈竇",
+    "english": "sigmoid sinus",
+    "hint": "X呈 S 形下行到頸靜脈孔。",
+    "note": "",
+    "marked": false,
+    "id": "q103-sigmoid-sinus"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
@@ -605,23 +829,47 @@ window.ANATOMY_QUESTIONS = [
     "hint": "沿枕內嵴附近，較細，往竇匯方向。",
     "note": "",
     "marked": false,
-    "id": "q076-occipital-sinus"
+    "id": "q104-occipital-sinus"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
-    "english": "ethmoidal sinuses (anterior / middle / posterior)",
+    "english": "ethmoidal sinuses anterior",
     "hint": "在篩骨內的含氣空腔；跑台若在鼻腔上外側或眼眶內側附近，依前後位置判斷。",
     "note": "",
     "marked": true,
-    "id": "q077-ethmoidal-sinuses-anterior-middle-posterior"
+    "id": "q105-ethmoidal-sinuses-anterior"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
-    "english": "superior / inferior petrosal sinus",
-    "hint": "X在岩部上緣，X在岩枕裂，兩者都與海綿竇相關。",
+    "english": "ethmoidal sinuses middle",
+    "hint": "在篩骨內的含氣空腔；跑台若在鼻腔上外側或眼眶內側附近，依前後位置判斷。",
+    "note": "",
+    "marked": true,
+    "id": "q106-ethmoidal-sinuses-middle"
+  },
+  {
+    "section": "靜脈與硬腦膜靜脈竇",
+    "english": "ethmoidal sinuses posterior",
+    "hint": "在篩骨內的含氣空腔；跑台若在鼻腔上外側或眼眶內側附近，依前後位置判斷。",
+    "note": "",
+    "marked": true,
+    "id": "q107-ethmoidal-sinuses-posterior"
+  },
+  {
+    "section": "靜脈與硬腦膜靜脈竇",
+    "english": "superior petrosal sinus",
+    "hint": "X在岩部上緣，兩者都與海綿竇相關。",
     "note": "",
     "marked": false,
-    "id": "q078-superior-inferior-petrosal-sinus"
+    "id": "q108-superior-petrosal-sinus"
+  },
+  {
+    "section": "靜脈與硬腦膜靜脈竇",
+    "english": "inferior petrosal sinus",
+    "hint": "X在岩枕裂，兩者都與海綿竇相關。",
+    "note": "",
+    "marked": false,
+    "id": "q109-inferior-petrosal-sinus"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
@@ -629,7 +877,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "蝶鞍兩側；內有內頸動脈與多條腦神經鄰近，是顱底常考定位點。",
     "note": "",
     "marked": false,
-    "id": "q079-cavernous-sinus"
+    "id": "q110-cavernous-sinus"
   },
   {
     "section": "靜脈與硬腦膜靜脈竇",
@@ -637,7 +885,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "眼眶上方粗靜脈，往後通海綿竇，常與眼動脈分支相鄰。",
     "note": "",
     "marked": true,
-    "id": "q080-superior-ophthalmic-v"
+    "id": "q111-superior-ophthalmic-v"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -645,7 +893,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "在篩板上方或嗅球、嗅束區域；細絲狀穿篩板時要看孔洞位置。",
     "note": "",
     "marked": false,
-    "id": "q081-olfactory-n-cn-i"
+    "id": "q112-olfactory-n-cn-i"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -653,7 +901,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "粗白索由眼球後方進入眶尖管道，與眼動脈同區。",
     "note": "",
     "marked": false,
-    "id": "q082-optic-n-cn-ii"
+    "id": "q113-optic-n-cn-ii"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -661,7 +909,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "進入眼眶支配多數眼外肌；顱底可在腳間窩前外側附近找。",
     "note": "",
     "marked": false,
-    "id": "q083-oculomotor-n-cn-iii"
+    "id": "q114-oculomotor-n-cn-iii"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -669,7 +917,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "細小，支配上斜肌；在眼眶內追到上斜肌是最穩。",
     "note": "",
     "marked": false,
-    "id": "q084-trochlear-n-cn-iv"
+    "id": "q115-trochlear-n-cn-iv"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -677,7 +925,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "顱中窩大型神經節後分 V1 / V2 / V3；跑台多考分支全名。",
     "note": "通常考分支且要全名",
     "marked": false,
-    "id": "q085-trigeminal-n-cn-v"
+    "id": "q116-trigeminal-n-cn-v"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -685,7 +933,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "經眶上裂入眼眶，分支往額部、淚腺、鼻睫區。",
     "note": "",
     "marked": true,
-    "id": "q086-ophthalmic-n-v1"
+    "id": "q117-ophthalmic-n-v1"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -693,23 +941,39 @@ window.ANATOMY_QUESTIONS = [
     "hint": "眼眶內穿過視神經附近，分出睫狀、篩神經與滑車下神經。",
     "note": "",
     "marked": true,
-    "id": "q087-nasociliary-n"
+    "id": "q118-nasociliary-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "long / short ciliary n.",
+    "english": "long ciliary n.",
     "hint": "細小神經進眼球後方；X常由睫狀神經節附近出。",
     "note": "",
     "marked": true,
-    "id": "q088-long-short-ciliary-n"
+    "id": "q119-long-ciliary-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "anterior / posterior ethmoidal n.",
+    "english": "short ciliary n.",
+    "hint": "細小神經進眼球後方；X常由睫狀神經節附近出。",
+    "note": "",
+    "marked": true,
+    "id": "q120-short-ciliary-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "anterior ethmoidal n.",
     "hint": "沿眼眶內側壁進篩孔，很細，定位靠篩孔。",
     "note": "很細不常考",
     "marked": true,
-    "id": "q089-anterior-posterior-ethmoidal-n"
+    "id": "q121-anterior-ethmoidal-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "posterior ethmoidal n.",
+    "hint": "沿眼眶內側壁進篩孔，很細，定位靠篩孔。",
+    "note": "很細不常考",
+    "marked": true,
+    "id": "q122-posterior-ethmoidal-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -717,15 +981,15 @@ window.ANATOMY_QUESTIONS = [
     "hint": "走向內眼角，位於滑車附近的細小分支。",
     "note": "",
     "marked": false,
-    "id": "q090-infratrochlear-n"
+    "id": "q123-infratrochlear-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
     "english": "lacrimal n.",
-    "hint": "眼眶外上側往淚腺走，常與淚腺動脈同行。",
+    "hint": "眼眶外上側往X走，常與X動脈同行。",
     "note": "",
     "marked": true,
-    "id": "q091-lacrimal-n"
+    "id": "q124-lacrimal-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -733,15 +997,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "眼眶上方最表淺，往前分成眶上與滑車上神經。",
     "note": "眼睛愛考紅色幾個",
     "marked": true,
-    "id": "q092-frontal-n"
+    "id": "q125-frontal-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "lateral / medial supraorbital n.",
+    "english": "lateral supraorbital n.",
     "hint": "經眶上切跡或孔到額部；可與眶上血管一起成束。",
     "note": "",
     "marked": true,
-    "id": "q093-lateral-medial-supraorbital-n"
+    "id": "q126-lateral-supraorbital-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "medial supraorbital n.",
+    "hint": "經眶上切跡或孔到額部；可與眶上血管一起成束。",
+    "note": "",
+    "marked": true,
+    "id": "q127-medial-supraorbital-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -749,39 +1021,55 @@ window.ANATOMY_QUESTIONS = [
     "hint": "眼眶內上角出來到額部內側，較靠近正中。",
     "note": "",
     "marked": true,
-    "id": "q094-supratrochlear-n"
+    "id": "q128-supratrochlear-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
     "english": "maxillary n. (V2)",
-    "hint": "經圓孔到翼腭窩，再到眶下管；分支多往上頷、腭、顴部。",
+    "hint": "經圓孔到翼腭窩，再到眶下管；分支多往X、腭、顴部。",
     "note": "",
     "marked": true,
-    "id": "q095-maxillary-n-v2"
+    "id": "q129-maxillary-n-v2"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
     "english": "infraorbital n.",
-    "hint": "經眶下孔出臉，常與眶下血管一起被綁。",
+    "hint": "經X孔出臉，常與X血管一起被綁。",
     "note": "",
     "marked": true,
-    "id": "q096-infraorbital-n"
+    "id": "q130-infraorbital-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "middle / anterior superior alveolar n.",
+    "english": "middle superior alveolar n.",
     "hint": "由眶下神經分出進上頷骨，往上牙槽走。",
     "note": "",
     "marked": false,
-    "id": "q097-middle-anterior-superior-alveolar-n"
+    "id": "q131-middle-superior-alveolar-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "greater / lesser palatine n.",
-    "hint": "經大、小腭孔到硬腭或軟腭；看孔洞與腭的位置。",
+    "english": "anterior superior alveolar n.",
+    "hint": "由眶下神經分出進上頷骨，往上牙槽走。",
     "note": "",
     "marked": false,
-    "id": "q098-greater-lesser-palatine-n"
+    "id": "q132-anterior-superior-alveolar-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "greater palatine n.",
+    "hint": "經大、X孔到硬腭或軟腭；看孔洞與腭的位置。",
+    "note": "",
+    "marked": false,
+    "id": "q133-greater-palatine-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "lesser palatine n.",
+    "hint": "經大、X孔到硬腭或軟腭；看孔洞與腭的位置。",
+    "note": "",
+    "marked": false,
+    "id": "q134-lesser-palatine-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -789,15 +1077,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "進眼眶外側後分支到顴顳、顴顏面。",
     "note": "",
     "marked": true,
-    "id": "q099-zygomatic-n"
+    "id": "q135-zygomatic-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "zygomaticotemporal / zygomaticofacial n.",
+    "english": "zygomaticotemporal n.",
     "hint": "分別出顴骨顳面或顏面小孔，到顳部或顴部皮膚。",
     "note": "",
     "marked": true,
-    "id": "q100-zygomaticotemporal-zygomaticofacial-n"
+    "id": "q136-zygomaticotemporal-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "zygomaticofacial n.",
+    "hint": "分別出顴骨顳面或顏面小孔，到顳部或顴部皮膚。",
+    "note": "",
+    "marked": true,
+    "id": "q137-zygomaticofacial-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -805,15 +1101,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "在上頷骨後方進牙槽，供上臼齒區。",
     "note": "",
     "marked": false,
-    "id": "q101-posterior-superior-alveolar-n"
+    "id": "q138-posterior-superior-alveolar-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "nasopalatine n. / incisive n.",
-    "hint": "X經切牙管到硬腭前部；X在切牙孔附近。",
+    "english": "nasopalatine n.",
+    "hint": "X經X管到硬腭前部。",
     "note": "",
     "marked": false,
-    "id": "q102-nasopalatine-n-incisive-n"
+    "id": "q139-nasopalatine-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "incisive n.",
+    "hint": "X經X管到硬腭前部；X在X孔附近。",
+    "note": "",
+    "marked": false,
+    "id": "q140-incisive-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -821,7 +1125,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "經卵圓孔到顳下窩；三個愛考分支要看孔洞與走向。",
     "note": "紫色三個太愛考，注意孔洞",
     "marked": true,
-    "id": "q103-mandibular-n-v3"
+    "id": "q141-mandibular-n-v3"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -829,7 +1133,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "常繞中腦膜動脈後往耳前顳區，顳區別誤寫一般顳神經。",
     "note": "",
     "marked": true,
-    "id": "q104-auriculotemporal-n"
+    "id": "q142-auriculotemporal-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -837,7 +1141,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "穿過或貼近外翼肌，往頰部；是感覺神經，和頰肌本身不等於同一回事。",
     "note": "",
     "marked": false,
-    "id": "q105-buccal-n"
+    "id": "q143-buccal-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -845,39 +1149,63 @@ window.ANATOMY_QUESTIONS = [
     "hint": "位在下頷支內側，向前下走到舌；常與下齒槽神經相鄰。",
     "note": "",
     "marked": false,
-    "id": "q106-lingual-n"
+    "id": "q144-lingual-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "inferior alveolar n. / mylohyoid n. / mental n.",
-    "hint": "X進下頷孔；入孔前分X，末端由頦孔出成X。",
+    "english": "inferior alveolar n.",
+    "hint": "X進下頷孔。",
     "note": "",
     "marked": false,
-    "id": "q107-inferior-alveolar-n-mylohyoid-n-mental-n"
+    "id": "q145-inferior-alveolar-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "mylohyoid n.",
+    "hint": "入孔前分X。",
+    "note": "",
+    "marked": false,
+    "id": "q146-mylohyoid-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "mental n.",
+    "hint": "末端由頦孔出成X。",
+    "note": "",
+    "marked": false,
+    "id": "q147-mental-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
     "english": "masseteric n.",
-    "hint": "穿下頷切跡到咬肌深面，常和咬肌動脈同行。",
+    "hint": "穿下頷切跡到X深面，常和X動脈同行。",
     "note": "",
     "marked": false,
-    "id": "q108-masseteric-n"
+    "id": "q148-masseteric-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "lateral / medial pterygoid n.",
+    "english": "lateral pterygoid n.",
     "hint": "短支進入對應翼肌，以進入哪塊肌肉判斷。",
     "note": "",
     "marked": false,
-    "id": "q109-lateral-medial-pterygoid-n"
+    "id": "q149-lateral-pterygoid-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "medial pterygoid n.",
+    "hint": "短支進入對應翼肌，以進入哪塊肌肉判斷。",
+    "note": "",
+    "marked": false,
+    "id": "q150-medial-pterygoid-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
     "english": "deep temporal n.",
-    "hint": "向上進顳肌深面，常與深顳動脈伴行。",
+    "hint": "向上進顳肌深面，常與X動脈伴行。",
     "note": "",
     "marked": false,
-    "id": "q110-deep-temporal-n"
+    "id": "q151-deep-temporal-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -885,31 +1213,55 @@ window.ANATOMY_QUESTIONS = [
     "hint": "支配外直肌；在眼眶內追到外直肌最清楚。",
     "note": "",
     "marked": false,
-    "id": "q111-abducens-n-cn-vi"
+    "id": "q152-abducens-n-cn-vi"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
     "english": "facial n. (CN VII)",
-    "hint": "顱外常在腮腺內呈分支扇出，跑台多考顏面部分支。",
-    "note": "顱內會跟 CN8 一起，通常考顏面部分支",
+    "hint": "顱外常在腮腺內呈分支扇出，跑台多考X部分支。",
+    "note": "顱內會跟 CN8 一起，通常考X部分支",
     "marked": true,
-    "id": "q112-facial-n-cn-vii"
+    "id": "q153-facial-n-cn-vii"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "temporal / zygomatic br. of facial n.",
+    "english": "temporal n.",
     "hint": "由腮腺上方扇出，分別往額部與眼輪匝肌、顴部。",
     "note": "",
     "marked": true,
-    "id": "q113-temporal-zygomatic-br-of-facial-n"
+    "id": "q154-temporal-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "buccal / marginal mandibular / cervical br. of facial n.",
+    "english": "zygomatic br. of facial n.",
+    "hint": "由腮腺上方扇出，分別往額部與眼輪匝肌、顴部。",
+    "note": "",
+    "marked": true,
+    "id": "q155-zygomatic-br-of-facial-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "buccal n.",
+    "hint": "X往頰肌表面，邊緣下頷支沿下頷下緣。",
+    "note": "",
+    "marked": true,
+    "id": "q156-buccal-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "marginal mandibular n.",
     "hint": "X往頰肌表面，邊緣下頷支沿下頷下緣，X往闊頸肌。",
     "note": "",
     "marked": true,
-    "id": "q114-buccal-marginal-mandibular-cervical-br-of-facial"
+    "id": "q157-marginal-mandibular-n"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "cervical br. of facial n.",
+    "hint": "邊緣下頷支沿下頷下緣，X往闊頸肌。",
+    "note": "",
+    "marked": true,
+    "id": "q158-cervical-br-of-facial-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -917,7 +1269,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "中耳小神經，出顳骨後常併入舌神經；看到和舌神經會合可判斷。",
     "note": "",
     "marked": false,
-    "id": "q115-chorda-tympani-n"
+    "id": "q159-chorda-tympani-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -925,7 +1277,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "顳骨岩部前面溝內走向翼管，通常是顱底細神經。",
     "note": "",
     "marked": false,
-    "id": "q116-greater-petrosal-n"
+    "id": "q160-greater-petrosal-n"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -933,7 +1285,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "與顏面神經一起進內耳道；若兩條全綁，CN VII 與 CN VIII 都要寫。",
     "note": "CN7、CN8 走一起",
     "marked": true,
-    "id": "q117-vestibulocochlear-n-cn-viii"
+    "id": "q161-vestibulocochlear-n-cn-viii"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -941,7 +1293,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由頸靜脈孔出，往咽與舌後三分之一；常在迷走神經附近。",
     "note": "",
     "marked": false,
-    "id": "q118-glossopharyngeal-n-cn-ix"
+    "id": "q162-glossopharyngeal-n-cn-ix"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -949,7 +1301,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "頸動脈鞘內位於頸動脈與內頸靜脈之間偏後，粗白索。",
     "note": "",
     "marked": false,
-    "id": "q119-vagus-n-cn-x"
+    "id": "q163-vagus-n-cn-x"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -957,7 +1309,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "常考 spinal root；進胸鎖乳突肌後到斜方肌。",
     "note": "考 spinal root",
     "marked": true,
-    "id": "q120-accessory-n-cn-xi"
+    "id": "q164-accessory-n-cn-xi"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -965,7 +1317,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "經顱底專屬管道出顱，向前到舌；可單獨考孔洞。",
     "note": "顱底孔洞可單獨考",
     "marked": true,
-    "id": "q121-hypoglossal-n-cn-xii"
+    "id": "q165-hypoglossal-n-cn-xii"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -973,7 +1325,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "眼眶後部、視神經外側附近的小神經節，短睫神經由此出。",
     "note": "",
     "marked": false,
-    "id": "q122-ciliary-ganglion"
+    "id": "q166-ciliary-ganglion"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -981,7 +1333,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "翼腭窩內，靠近上頷神經與蝶腭孔。",
     "note": "",
     "marked": false,
-    "id": "q123-pterygopalatine-ganglion"
+    "id": "q167-pterygopalatine-ganglion"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -989,7 +1341,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "卵圓孔下方、V3 內側附近的小神經節。",
     "note": "",
     "marked": false,
-    "id": "q124-otic-ganglion"
+    "id": "q168-otic-ganglion"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -997,23 +1349,39 @@ window.ANATOMY_QUESTIONS = [
     "hint": "貼近舌神經、位於下頷下腺上方。",
     "note": "",
     "marked": false,
-    "id": "q125-submandibular-ganglion"
+    "id": "q169-submandibular-ganglion"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "parotid gland / parotid duct",
+    "english": "parotid gland",
     "hint": "X覆蓋耳前與咬肌後部；X橫過咬肌後鑽入頰肌。",
     "note": "",
     "marked": true,
-    "id": "q126-parotid-gland-parotid-duct"
+    "id": "q170-parotid-gland"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
-    "english": "submandibular / sublingual gland",
-    "hint": "X在下頷骨下方較大，X在口底黏膜下較前內側。",
+    "english": "parotid duct",
+    "hint": "X覆蓋耳前與咬肌後部；X橫過咬肌後鑽入頰肌。",
+    "note": "",
+    "marked": true,
+    "id": "q171-parotid-duct"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "submandibular gland",
+    "hint": "位在 mandible 下方，體積較口底腺體大。",
     "note": "",
     "marked": false,
-    "id": "q127-submandibular-sublingual-gland"
+    "id": "q172-submandibular-gland"
+  },
+  {
+    "section": "腦神經、分支、神經節與腺體",
+    "english": "sublingual gland",
+    "hint": "位在口底黏膜下、較前內側的位置。",
+    "note": "",
+    "marked": false,
+    "id": "q173-sublingual-gland"
   },
   {
     "section": "腦神經、分支、神經節與腺體",
@@ -1021,23 +1389,39 @@ window.ANATOMY_QUESTIONS = [
     "hint": "眼眶外上角的腺體，靠近外上方的血管神經束。",
     "note": "",
     "marked": true,
-    "id": "q128-lacrimal-gland"
+    "id": "q174-lacrimal-gland"
   },
   {
     "section": "腹壁、後腹壁與膈肌",
-    "english": "external / internal abdominal oblique m.",
-    "hint": "X纖維往下內側，X多往上內側；腹壁四層肌看纖維走向最穩。",
+    "english": "external abdominal oblique m.",
+    "hint": "X纖維往下內側，腹壁四層肌看纖維走向最穩。",
     "note": "",
     "marked": false,
-    "id": "q129-external-internal-abdominal-oblique-m"
+    "id": "q175-external-abdominal-oblique-m"
   },
   {
     "section": "腹壁、後腹壁與膈肌",
-    "english": "rectus abdominis / transversus abdominis m.",
-    "hint": "X在正中旁、直行且被腱畫分隔；X纖維水平。",
+    "english": "internal abdominal oblique m.",
+    "hint": "X多往上內側；腹壁四層肌看纖維走向最穩。",
+    "note": "",
+    "marked": false,
+    "id": "q176-internal-abdominal-oblique-m"
+  },
+  {
+    "section": "腹壁、後腹壁與膈肌",
+    "english": "rectus abdominis m.",
+    "hint": "X在正中旁、直行且被腱畫分隔。",
     "note": "以腹壁肌層與纖維走向判斷。",
     "marked": true,
-    "id": "q130-rectus-abdominis-transversus-abdominis-m"
+    "id": "q177-rectus-abdominis-m"
+  },
+  {
+    "section": "腹壁、後腹壁與膈肌",
+    "english": "transversus abdominis m.",
+    "hint": "X纖維水平。",
+    "note": "以腹壁肌層與纖維走向判斷。",
+    "marked": true,
+    "id": "q178-transversus-abdominis-m"
   },
   {
     "section": "腹壁、後腹壁與膈肌",
@@ -1045,7 +1429,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "恥骨上方、腹直肌鞘內的小三角肌，靠近白線。",
     "note": "容易遺忘",
     "marked": true,
-    "id": "q131-pyramidalis-m"
+    "id": "q179-pyramidalis-m"
   },
   {
     "section": "腹壁、後腹壁與膈肌",
@@ -1053,15 +1437,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "後腹壁、腰大肌外側，從髂嵴到第 12 肋，形狀較方。",
     "note": "",
     "marked": true,
-    "id": "q132-quadratus-lumborum-m"
+    "id": "q180-quadratus-lumborum-m"
   },
   {
     "section": "腹壁、後腹壁與膈肌",
-    "english": "psoas major / minor m.",
-    "hint": "X沿腰椎側面下行到髂腰肌；X若存在，常是一條細腱在X表面。",
+    "english": "psoas major m.",
+    "hint": "X沿腰椎側面下行到髂腰肌；常是一條細腱在X表面。",
     "note": "標在細長 tendon 上時，先確認是否位於X表面。",
     "marked": true,
-    "id": "q133-psoas-major-minor-m"
+    "id": "q181-psoas-major-m"
+  },
+  {
+    "section": "腹壁、後腹壁與膈肌",
+    "english": "psoas minor m.",
+    "hint": "若存在，常呈細長 tendon，位於腰椎前外側較表面。",
+    "note": "標在細長 tendon 上時，先確認是否位於X表面。",
+    "marked": true,
+    "id": "q182-psoas-minor-m"
   },
   {
     "section": "腹壁、後腹壁與膈肌",
@@ -1069,31 +1461,63 @@ window.ANATOMY_QUESTIONS = [
     "hint": "分隔胸腹腔的穹窿狀肌；中央腱與周邊肌性部位要分清。",
     "note": "",
     "marked": true,
-    "id": "q134-diaphragm-m"
+    "id": "q183-diaphragm-m"
   },
   {
     "section": "腹壁、後腹壁與膈肌",
-    "english": "right / left crus of diaphragm m.",
+    "english": "right crus of diaphragm m.",
     "hint": "附著在腰椎前方的膈肌肌腱腳；在脊椎上的肌腱狀束寫 crus。",
     "note": "脊椎上的肌腱都是 crus，其他寫 diaphragm m.",
     "marked": true,
-    "id": "q135-right-left-crus-of-diaphragm-m"
+    "id": "q184-right-crus-of-diaphragm-m"
+  },
+  {
+    "section": "腹壁、後腹壁與膈肌",
+    "english": "left crus of diaphragm m.",
+    "hint": "附著在腰椎前方的膈肌肌腱腳；在脊椎上的肌腱狀束寫 crus。",
+    "note": "脊椎上的肌腱都是 crus，其他寫 diaphragm m.",
+    "marked": true,
+    "id": "q185-left-crus-of-diaphragm-m"
   },
   {
     "section": "腹腔與骨盆入口動脈",
-    "english": "descending thoracic aorta / abdominal aorta",
+    "english": "descending thoracic aorta",
     "hint": "穿過主動脈裂孔後成X，位在椎體前方偏左。",
     "note": "",
     "marked": false,
-    "id": "q136-descending-thoracic-aorta-abdominal-aorta"
+    "id": "q186-descending-thoracic-aorta"
   },
   {
     "section": "腹腔與骨盆入口動脈",
-    "english": "superior / middle / inferior suprarenal a.",
+    "english": "abdominal aorta",
+    "hint": "穿過主動脈裂孔後成X，位在椎體前方偏左。",
+    "note": "",
+    "marked": false,
+    "id": "q187-abdominal-aorta"
+  },
+  {
+    "section": "腹腔與骨盆入口動脈",
+    "english": "superior suprarenal a.",
     "hint": "都走向腎上腺；考試通常看是否供應腎上腺，不特別刁難上中下。",
     "note": "不用特別分上中下",
     "marked": true,
-    "id": "q137-superior-middle-inferior-suprarenal-a"
+    "id": "q188-superior-suprarenal-a"
+  },
+  {
+    "section": "腹腔與骨盆入口動脈",
+    "english": "middle suprarenal a.",
+    "hint": "都走向腎上腺；考試通常看是否供應腎上腺，不特別刁難上中下。",
+    "note": "不用特別分上中下",
+    "marked": true,
+    "id": "q189-middle-suprarenal-a"
+  },
+  {
+    "section": "腹腔與骨盆入口動脈",
+    "english": "inferior suprarenal a.",
+    "hint": "都走向腎上腺；考試通常看是否供應腎上腺，不特別刁難上中下。",
+    "note": "不用特別分上中下",
+    "marked": true,
+    "id": "q190-inferior-suprarenal-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1101,7 +1525,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "腹主動脈前方最上方粗短三分支，常在腎靜脈上方或附近。",
     "note": "",
     "marked": true,
-    "id": "q138-celiac-trunk"
+    "id": "q191-celiac-trunk"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1109,7 +1533,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "腹腔幹分支中最小，往胃小彎上行。",
     "note": "",
     "marked": true,
-    "id": "q139-left-gastric-a"
+    "id": "q192-left-gastric-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1117,23 +1541,31 @@ window.ANATOMY_QUESTIONS = [
     "hint": "沿胰臟上緣彎曲往左到脾門，常伴脾靜脈。",
     "note": "",
     "marked": true,
-    "id": "q140-splenic-a"
+    "id": "q193-splenic-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
-    "english": "common hepatic / proper hepatic a.",
-    "hint": "X往右，X進肝十二指腸韌帶，與門靜脈、膽管成 portal triad。",
+    "english": "common hepatic a.",
+    "hint": "X往右，與門靜脈、膽管成 portal triad。",
     "note": "",
     "marked": true,
-    "id": "q141-common-hepatic-proper-hepatic-a"
+    "id": "q194-common-hepatic-a"
+  },
+  {
+    "section": "腹腔與骨盆入口動脈",
+    "english": "proper hepatic a.",
+    "hint": "X進肝十二指腸韌帶，與門靜脈、膽管成 portal triad。",
+    "note": "",
+    "marked": true,
+    "id": "q195-proper-hepatic-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
     "english": "cystic a.",
-    "hint": "由肝固有或右肝動脈附近分出到膽囊；看是否進入膽囊頸與膽囊體。",
+    "hint": "由肝固有或右肝動脈附近分出到X；看是否進入X頸與X體。",
     "note": "",
     "marked": true,
-    "id": "q142-cystic-a"
+    "id": "q196-cystic-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1141,15 +1573,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "腹主動脈前方分出，通常在胰頸後方下行到小腸繫膜；管徑粗。",
     "note": "",
     "marked": true,
-    "id": "q143-superior-mesenteric-a"
+    "id": "q197-superior-mesenteric-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
-    "english": "right / left renal a.",
+    "english": "right renal a.",
     "hint": "由腹主動脈側方到腎門；X通常較長、從 IVC 後方經過。",
     "note": "要寫左右",
     "marked": true,
-    "id": "q144-right-left-renal-a"
+    "id": "q198-right-renal-a"
+  },
+  {
+    "section": "腹腔與骨盆入口動脈",
+    "english": "left renal a.",
+    "hint": "由腹主動脈側方到腎門；X通常較長、從 IVC 後方經過。",
+    "note": "要寫左右",
+    "marked": true,
+    "id": "q199-left-renal-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1157,15 +1597,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "腹主動脈前方較低位分支，往左下供降結腸、乙狀結腸、上直腸。",
     "note": "",
     "marked": true,
-    "id": "q145-inferior-mesenteric-a"
+    "id": "q200-inferior-mesenteric-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
-    "english": "right / left testicular a.",
+    "english": "right testicular a.",
     "hint": "腹主動脈前外側細長分支，往下跨輸尿管到精索；女性可對應卵巢動脈。",
     "note": "要寫左右",
     "marked": true,
-    "id": "q146-right-left-testicular-a"
+    "id": "q201-right-testicular-a"
+  },
+  {
+    "section": "腹腔與骨盆入口動脈",
+    "english": "left testicular a.",
+    "hint": "腹主動脈前外側細長分支，往下跨輸尿管到精索；女性可對應卵巢動脈。",
+    "note": "要寫左右",
+    "marked": true,
+    "id": "q202-left-testicular-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1173,7 +1621,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "腹主動脈分叉處後方小動脈，沿薦骨正中下行。",
     "note": "容易遺忘",
     "marked": true,
-    "id": "q147-median-sacral-a"
+    "id": "q203-median-sacral-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1181,7 +1629,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "腹主動脈後外側分支，橫向走到後腹壁。",
     "note": "提醒有這個東西",
     "marked": true,
-    "id": "q148-lumbar-a"
+    "id": "q204-lumbar-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1189,15 +1637,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "腹主動脈在 L4 附近分叉後往外下，之後分內外髂。",
     "note": "",
     "marked": false,
-    "id": "q149-common-iliac-a"
+    "id": "q205-common-iliac-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
-    "english": "external iliac a. / deep circumflex iliac a.",
-    "hint": "X沿骨盆緣往腹股溝；X沿髂嵴深面走。",
+    "english": "external iliac a.",
+    "hint": "X沿骨盆緣往腹股溝。",
     "note": "",
     "marked": true,
-    "id": "q150-external-iliac-a-deep-circumflex-iliac-a"
+    "id": "q206-external-iliac-a"
+  },
+  {
+    "section": "腹腔與骨盆入口動脈",
+    "english": "deep circumflex iliac a.",
+    "hint": "X沿髂嵴深面走。",
+    "note": "",
+    "marked": true,
+    "id": "q207-deep-circumflex-iliac-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1205,7 +1661,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "進入骨盆，分支供骨盆壁、會陰與臀區；骨盆章節會再細分。",
     "note": "",
     "marked": false,
-    "id": "q151-internal-iliac-a"
+    "id": "q208-internal-iliac-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1213,15 +1669,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "往膈肌下表面，常靠近膈腳與腎上腺上極。",
     "note": "",
     "marked": true,
-    "id": "q152-inferior-phrenic-a"
+    "id": "q209-inferior-phrenic-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
-    "english": "inferior / superior epigastric a.",
-    "hint": "X由外髂上行；X來自內胸動脈下行，兩者在腹直肌鞘內吻合。",
+    "english": "inferior epigastric a.",
+    "hint": "X由外髂上行；兩者在腹直肌鞘內吻合。",
     "note": "sup. epigastric 來自 internal thoracic a.",
     "marked": true,
-    "id": "q153-inferior-superior-epigastric-a"
+    "id": "q210-inferior-epigastric-a"
+  },
+  {
+    "section": "腹腔與骨盆入口動脈",
+    "english": "superior epigastric a.",
+    "hint": "X來自內胸動脈下行，兩者在腹直肌鞘內吻合。",
+    "note": "sup. epigastric 來自 internal thoracic a.",
+    "marked": true,
+    "id": "q211-superior-epigastric-a"
   },
   {
     "section": "腹腔與骨盆入口動脈",
@@ -1229,7 +1693,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "沿胃大彎在大網膜內走，看到沿大彎走的血管就往此方向判斷。",
     "note": "",
     "marked": false,
-    "id": "q154-gastroomental-a"
+    "id": "q212-gastroomental-a"
   },
   {
     "section": "腹腔靜脈",
@@ -1237,15 +1701,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "位在腹主動脈右側，管徑大、壁薄，收右 / 左腎靜脈與肝靜脈等。",
     "note": "",
     "marked": false,
-    "id": "q155-inferior-vena-cava"
+    "id": "q213-inferior-vena-cava"
   },
   {
     "section": "腹腔靜脈",
-    "english": "right / left renal v.",
+    "english": "right renal v.",
     "hint": "由腎門往 IVC；X較長，常跨腹主動脈前方。",
     "note": "要寫左右",
     "marked": true,
-    "id": "q156-right-left-renal-v"
+    "id": "q214-right-renal-v"
+  },
+  {
+    "section": "腹腔靜脈",
+    "english": "left renal v.",
+    "hint": "由腎門往 IVC；X較長。",
+    "note": "要寫左右",
+    "marked": true,
+    "id": "q215-left-renal-v"
   },
   {
     "section": "腹腔靜脈",
@@ -1253,55 +1725,103 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由 adrenal gland 出；右側多直接入 IVC，左側多入左腎靜脈。",
     "note": "",
     "marked": true,
-    "id": "q157-suprarenal-v"
+    "id": "q216-suprarenal-v"
   },
   {
     "section": "腹腔靜脈",
-    "english": "right / left testicular v.",
+    "english": "right testicular v.",
     "hint": "沿睪丸動脈同行；右側常入 IVC，左側入左腎靜脈。",
     "note": "",
     "marked": true,
-    "id": "q158-right-left-testicular-v"
+    "id": "q217-right-testicular-v"
+  },
+  {
+    "section": "腹腔靜脈",
+    "english": "left testicular v.",
+    "hint": "沿睪丸動脈同行；右側常入 IVC，左側入左腎靜脈。",
+    "note": "",
+    "marked": true,
+    "id": "q218-left-testicular-v"
   },
   {
     "section": "腹腔靜脈",
     "english": "hepatic portal v.",
-    "hint": "在肝十二指腸韌帶內，位於膽管與肝動脈後方，管徑大且往肝門。",
+    "hint": "在肝十二指腸韌帶內，位於膽管與肝動脈後方，管徑大且往X。",
     "note": "",
     "marked": true,
-    "id": "q159-hepatic-portal-v"
+    "id": "q219-hepatic-portal-v"
   },
   {
     "section": "腹腔靜脈",
-    "english": "splenic v. / gastroomental v.",
-    "hint": "X沿胰臟後方往右；X沿胃大彎或網膜走。",
+    "english": "splenic v.",
+    "hint": "X沿胰臟後方往右。",
     "note": "",
     "marked": true,
-    "id": "q160-splenic-v-gastroomental-v"
+    "id": "q220-splenic-v"
   },
   {
     "section": "腹腔靜脈",
-    "english": "superior / inferior mesenteric v.",
-    "hint": "X伴 SMA；X多往脾靜脈匯入。",
+    "english": "gastroomental v.",
+    "hint": "X沿胃大彎或網膜走。",
     "note": "",
     "marked": true,
-    "id": "q161-superior-inferior-mesenteric-v"
+    "id": "q221-gastroomental-v"
   },
   {
     "section": "腹腔靜脈",
-    "english": "right / left gastric v.",
+    "english": "superior mesenteric v.",
+    "hint": "X伴 SMA。",
+    "note": "",
+    "marked": true,
+    "id": "q222-superior-mesenteric-v"
+  },
+  {
+    "section": "腹腔靜脈",
+    "english": "inferior mesenteric v.",
+    "hint": "X多往脾靜脈匯入。",
+    "note": "",
+    "marked": true,
+    "id": "q223-inferior-mesenteric-v"
+  },
+  {
+    "section": "腹腔靜脈",
+    "english": "right gastric v.",
     "hint": "沿胃小彎，匯入門靜脈系統；依左右位置與小彎走向判斷。",
     "note": "",
     "marked": true,
-    "id": "q162-right-left-gastric-v"
+    "id": "q224-right-gastric-v"
   },
   {
     "section": "腹腔靜脈",
-    "english": "common / external / internal iliac v.",
+    "english": "left gastric v.",
+    "hint": "沿胃小彎，匯入門靜脈系統；依左右位置與小彎走向判斷。",
+    "note": "",
+    "marked": true,
+    "id": "q225-left-gastric-v"
+  },
+  {
+    "section": "腹腔靜脈",
+    "english": "common v.",
     "hint": "與同名動脈伴行但更薄、更易塌；X靜脈合成下腔靜脈。",
     "note": "",
     "marked": true,
-    "id": "q163-common-external-internal-iliac-v"
+    "id": "q226-common-v"
+  },
+  {
+    "section": "腹腔靜脈",
+    "english": "external iliac v.",
+    "hint": "與同名動脈伴行但更薄、更易塌；X靜脈合成下腔靜脈。",
+    "note": "",
+    "marked": true,
+    "id": "q227-external-iliac-v"
+  },
+  {
+    "section": "腹腔靜脈",
+    "english": "internal iliac v.",
+    "hint": "與同名動脈伴行但更薄、更易塌；X靜脈合成下腔靜脈。",
+    "note": "",
+    "marked": true,
+    "id": "q228-internal-iliac-v"
   },
   {
     "section": "腹腔神經",
@@ -1309,7 +1829,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "在腰方肌前方或腹壁肌層間走，較上方，往下腹壁皮膚。",
     "note": "",
     "marked": false,
-    "id": "q164-iliohypogastric-n"
+    "id": "q229-iliohypogastric-n"
   },
   {
     "section": "腹腔神經",
@@ -1317,7 +1837,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "比髂腹下神經更下方，往腹股溝管與前腹壁。",
     "note": "",
     "marked": true,
-    "id": "q165-ilioinguinal-n"
+    "id": "q230-ilioinguinal-n"
   },
   {
     "section": "腹腔神經",
@@ -1325,7 +1845,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "在髂肌表面往 ASIS 內側、腹股溝韌帶下方走到大腿外側。",
     "note": "",
     "marked": false,
-    "id": "q166-lateral-femoral-cutaneous-n"
+    "id": "q231-lateral-femoral-cutaneous-n"
   },
   {
     "section": "腹腔神經",
@@ -1333,23 +1853,31 @@ window.ANATOMY_QUESTIONS = [
     "hint": "從腰大肌前面穿出或貼其表面下行；分成生殖支與股支。",
     "note": "從腰大肌穿出",
     "marked": true,
-    "id": "q167-genitofemoral-n"
+    "id": "q232-genitofemoral-n"
   },
   {
     "section": "腹腔神經",
-    "english": "genital br. / femoral br. of genitofemoral n.",
-    "hint": "X進腹股溝管或精索，X走向股三角皮膚；看去向分辨。",
+    "english": "genital br.",
+    "hint": "X進腹股溝管或精索，看去向分辨。",
     "note": "",
     "marked": true,
-    "id": "q168-genital-br-femoral-br-of-genitofemoral-n"
+    "id": "q233-genital-br"
+  },
+  {
+    "section": "腹腔神經",
+    "english": "femoral br. of genitofemoral n.",
+    "hint": "X走向股三角皮膚；看去向分辨。",
+    "note": "",
+    "marked": true,
+    "id": "q234-femoral-br-of-genitofemoral-n"
   },
   {
     "section": "腹腔神經",
     "english": "obturator n.",
-    "hint": "沿骨盆側壁走向閉孔管，位置深但路徑清楚。",
-    "note": "位置深，沿閉孔區路徑確認。",
+    "hint": "沿骨盆側壁走向X管，位置深但路徑清楚。",
+    "note": "位置深，沿X區路徑確認。",
     "marked": true,
-    "id": "q169-obturator-n"
+    "id": "q235-obturator-n"
   },
   {
     "section": "腹腔神經",
@@ -1357,15 +1885,15 @@ window.ANATOMY_QUESTIONS = [
     "hint": "椎體前外側串珠狀結構，節與節之間有細索相連。",
     "note": "",
     "marked": true,
-    "id": "q170-sympathetic-trunk"
+    "id": "q236-sympathetic-trunk"
   },
   {
     "section": "腹腔神經",
     "english": "subcostal n.",
-    "hint": "第 12 肋下方走行，之後進入腹壁肌層。",
+    "hint": "第 12 rib 附近走行，之後進入腹壁肌層。",
     "note": "",
     "marked": true,
-    "id": "q171-subcostal-n"
+    "id": "q237-subcostal-n"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1373,15 +1901,39 @@ window.ANATOMY_QUESTIONS = [
     "hint": "右上腹大型實質器官；肝門可找門靜脈、肝動脈、膽管。",
     "note": "",
     "marked": false,
-    "id": "q172-liver"
+    "id": "q238-liver"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "round / triangular / coronary / falciform ligament",
+    "english": "round",
     "hint": "前腹壁到肝的一條韌帶內含臍靜脈遺跡；肝後上方固定肝的韌帶也常一起考。",
     "note": "常見考點，先看肝臟附著位置與韌帶走向。",
     "marked": true,
-    "id": "q173-round-triangular-coronary-falciform-ligament"
+    "id": "q239-round"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "triangular",
+    "hint": "前腹壁到肝的一條韌帶內含臍靜脈遺跡；肝後上方固定肝的韌帶也常一起考。",
+    "note": "常見考點，先看肝臟附著位置與韌帶走向。",
+    "marked": true,
+    "id": "q240-triangular"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "coronary",
+    "hint": "前腹壁到肝的一條韌帶內含臍靜脈遺跡；肝後上方固定肝的韌帶也常一起考。",
+    "note": "常見考點，先看肝臟附著位置與韌帶走向。",
+    "marked": true,
+    "id": "q241-coronary"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "falciform ligament",
+    "hint": "前腹壁到肝的一條韌帶內含臍靜脈遺跡；肝後上方固定肝的韌帶也常一起考。",
+    "note": "常見考點，先看肝臟附著位置與韌帶走向。",
+    "marked": true,
+    "id": "q242-falciform-ligament"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1389,7 +1941,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "左上腹、胃後外側，脾門有脾動靜脈；外觀較深色且有切跡。",
     "note": "",
     "marked": false,
-    "id": "q174-spleen"
+    "id": "q243-spleen"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1397,15 +1949,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "左上腹空腔器官，分大彎、小彎；沿彎曲找胃網膜或胃動靜脈。",
     "note": "",
     "marked": false,
-    "id": "q175-stomach"
+    "id": "q244-stomach"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "greater / lesser omentum",
-    "hint": "X從胃大彎垂下，X連肝與胃小彎、十二指腸。",
+    "english": "greater omentum",
+    "hint": "X從胃大彎垂下。",
     "note": "",
     "marked": true,
-    "id": "q176-greater-lesser-omentum"
+    "id": "q245-greater-omentum"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "lesser omentum",
+    "hint": "X連肝與胃小彎、十二指腸。",
+    "note": "",
+    "marked": true,
+    "id": "q246-lesser-omentum"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1413,7 +1973,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由肝總動脈分出後在十二指腸第一部後方下行。",
     "note": "",
     "marked": false,
-    "id": "q177-gastroduodenal-a"
+    "id": "q247-gastroduodenal-a"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1421,15 +1981,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "橫臥後腹壁，位於胃後方；脾動脈沿其上緣，十二指腸包住胰頭。",
     "note": "",
     "marked": false,
-    "id": "q178-pancreas"
+    "id": "q248-pancreas"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "dorsal / inferior pancreatic a.",
-    "hint": "供胰體或胰下緣的小分支；看到沿胰臟實質走的血管再命名。",
+    "english": "dorsal pancreatic a.",
+    "hint": "供胰體或X緣的小分支；看到沿胰臟實質走的血管再命名。",
     "note": "",
     "marked": false,
-    "id": "q179-dorsal-inferior-pancreatic-a"
+    "id": "q249-dorsal-pancreatic-a"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "inferior pancreatic a.",
+    "hint": "供胰體或X緣的小分支；看到沿胰臟實質走的血管再命名。",
+    "note": "",
+    "marked": false,
+    "id": "q250-inferior-pancreatic-a"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1437,55 +2005,127 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由 SMA 分支供胰頭與十二指腸下部，和上胰十二指腸動脈吻合。",
     "note": "",
     "marked": false,
-    "id": "q180-inferior-pancreaticoduodenal-a"
+    "id": "q251-inferior-pancreaticoduodenal-a"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "anterior / posterior superior / inferior pancreaticoduodenal a.",
+    "english": "anterior superior pancreaticoduodenal a.",
     "hint": "圍繞胰頭與十二指腸 C loop；考前看，但跑台多以走向胰頭十二指腸判斷。",
     "note": "好像沒考過，考前看",
     "marked": false,
-    "id": "q181-anterior-posterior-superior-inferior-pancreatico"
+    "id": "q252-anterior-superior-pancreaticoduodenal-a"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "posterior superior pancreaticoduodenal a.",
+    "hint": "圍繞胰頭與十二指腸 C loop；考前看，但跑台多以走向胰頭十二指腸判斷。",
+    "note": "好像沒考過，考前看",
+    "marked": false,
+    "id": "q253-posterior-superior-pancreaticoduodenal-a"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "anterior inferior pancreaticoduodenal a.",
+    "hint": "圍繞胰頭與十二指腸 C loop；考前看，但跑台多以走向胰頭十二指腸判斷。",
+    "note": "好像沒考過，考前看",
+    "marked": false,
+    "id": "q254-anterior-inferior-pancreaticoduodenal-a"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "posterior inferior pancreaticoduodenal a.",
+    "hint": "圍繞胰頭與十二指腸 C loop；考前看，但跑台多以走向胰頭十二指腸判斷。",
+    "note": "好像沒考過，考前看",
+    "marked": false,
+    "id": "q255-posterior-inferior-pancreaticoduodenal-a"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
     "english": "suprarenal gland",
-    "hint": "位在腎上極內上方，右側較三角、左側較半月。",
+    "hint": "位在X極內上方，右側較三角、左側較半月。",
     "note": "",
     "marked": false,
-    "id": "q182-suprarenal-gland"
+    "id": "q256-suprarenal-gland"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "kidney / ureter",
+    "english": "kidney",
     "hint": "腎門連腎血管與腎盂；X是從腎盂往下的白色管狀結構，跨髂血管入骨盆。",
     "note": "",
     "marked": true,
-    "id": "q183-kidney-ureter"
+    "id": "q257-kidney"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "renal cortex / renal column",
+    "english": "ureter",
+    "hint": "腎門連腎血管與腎盂；X是從腎盂往下的白色管狀結構。",
+    "note": "",
+    "marked": true,
+    "id": "q258-ureter"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "renal cortex",
     "hint": "皮質在腎外層；X是皮質延伸到髓質錐體之間。",
     "note": "",
     "marked": true,
-    "id": "q184-renal-cortex-renal-column"
+    "id": "q259-renal-cortex"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "renal medulla / renal pyramid / papilla / pelvis",
+    "english": "renal column",
+    "hint": "皮質在腎外層；X是皮質延伸到髓質錐體之間。",
+    "note": "",
+    "marked": true,
+    "id": "q260-renal-column"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "renal medulla",
     "hint": "髓質呈錐體；尖端乳頭排入小腎盞，X是近輸尿管的漏斗狀腔。",
     "note": "",
     "marked": true,
-    "id": "q185-renal-medulla-renal-pyramid-papilla-pelvis"
+    "id": "q261-renal-medulla"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "major / minor calyx",
+    "english": "renal pyramid",
+    "hint": "髓質呈錐體；尖端乳頭排入小腎盞，X是近輸尿管的漏斗狀腔。",
+    "note": "",
+    "marked": true,
+    "id": "q262-renal-pyramid"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "renal papilla",
+    "hint": "髓質呈錐體；尖端乳頭排入小腎盞，X是近輸尿管的漏斗狀腔。",
+    "note": "",
+    "marked": true,
+    "id": "q263-renal-papilla"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "renal pelvis",
+    "hint": "髓質呈錐體；尖端乳頭排入小腎盞，X是近輸尿管的漏斗狀腔。",
+    "note": "",
+    "marked": true,
+    "id": "q264-renal-pelvis"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "major",
     "hint": "腎乳頭周圍的小杯狀腔隙會匯合成較大的杯狀腔隙。",
     "note": "注意腎盂周圍分支的層級。",
     "marked": true,
-    "id": "q186-major-minor-calyx"
+    "id": "q265-major"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "minor calyx",
+    "hint": "腎乳頭周圍的小杯狀腔隙會匯合成較大的杯狀腔隙。",
+    "note": "注意腎盂周圍分支的層級。",
+    "marked": true,
+    "id": "q266-minor-calyx"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1493,7 +2133,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "骨盆前下方空腔器官，空虛時塌陷；上方可見臍襞。",
     "note": "",
     "marked": false,
-    "id": "q187-bladder"
+    "id": "q267-bladder"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1501,7 +2141,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "肝十二指腸韌帶內較右前的管狀結構，和門靜脈、肝動脈形成 portal triad。",
     "note": "",
     "marked": true,
-    "id": "q188-bile-duct"
+    "id": "q268-bile-duct"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1509,7 +2149,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "肝下面梨形囊袋，X頸附近找 cystic a. 與膽管。",
     "note": "",
     "marked": false,
-    "id": "q189-gallbladder"
+    "id": "q269-gallbladder"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1517,15 +2157,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "小腸管徑較小、皺襞多；大腸可看結腸袋、脂肪垂與帶。",
     "note": "",
     "marked": false,
-    "id": "q190-intestine"
+    "id": "q270-intestine"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "jejunal / ileal a.",
-    "hint": "SMA 分支進小腸繫膜；空腸分支弓較少、直血管較長，迴腸弓較多。",
+    "english": "jejunal a.",
+    "hint": "SMA 分支進小腸繫膜；X分支弓較少、直血管較長。",
     "note": "",
     "marked": false,
-    "id": "q191-jejunal-ileal-a"
+    "id": "q271-jejunal-a"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "ileal a.",
+    "hint": "SMA 分支進小腸繫膜；X弓較多。",
+    "note": "",
+    "marked": false,
+    "id": "q272-ileal-a"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1533,39 +2181,79 @@ window.ANATOMY_QUESTIONS = [
     "hint": "SMA 右下分支，往迴盲部與闌尾方向。",
     "note": "",
     "marked": false,
-    "id": "q192-ileocolic-a"
+    "id": "q273-ileocolic-a"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "right / middle / left colic a.",
+    "english": "right colic a.",
     "hint": "分別供升結腸、橫結腸、降結腸；看血管走向哪段結腸。",
     "note": "",
     "marked": false,
-    "id": "q193-right-middle-left-colic-a"
+    "id": "q274-right-colic-a"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "superior rectal / sigmoid a.",
+    "english": "middle colic a.",
+    "hint": "分別供升結腸、橫結腸、降結腸；看血管走向哪段結腸。",
+    "note": "",
+    "marked": false,
+    "id": "q275-middle-colic-a"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "left colic a.",
+    "hint": "分別供升結腸、橫結腸、降結腸；看血管走向哪段結腸。",
+    "note": "",
+    "marked": false,
+    "id": "q276-left-colic-a"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "superior rectal a.",
     "hint": "IMA 終末或分支，往直腸上部或X。",
     "note": "",
     "marked": true,
-    "id": "q194-superior-rectal-sigmoid-a"
+    "id": "q277-superior-rectal-a"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "superior sigmoid a.",
+    "hint": "IMA 終末或分支，往直腸上部或X。",
+    "note": "",
+    "marked": true,
+    "id": "q278-superior-sigmoid-a"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
     "english": "appendicular a.",
-    "hint": "在闌尾繫膜內走向闌尾，是 SMA 分支中目標很明確者。",
+    "hint": "在X繫膜內走向X，是 SMA 分支中目標很明確者。",
     "note": "",
     "marked": true,
-    "id": "q195-appendicular-a"
+    "id": "q279-appendicular-a"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "straight a. / anastomotic loop / marginal a.",
-    "hint": "X由血管弓走向腸壁；X沿結腸邊緣連接各結腸動脈。",
+    "english": "straight a.",
+    "hint": "X由血管弓走向腸壁。",
     "note": "",
     "marked": false,
-    "id": "q196-straight-a-anastomotic-loop-marginal-a"
+    "id": "q280-straight-a"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "anastomotic loop",
+    "hint": "X由血管弓走向腸壁；X沿結腸X連接各結腸動脈。",
+    "note": "",
+    "marked": false,
+    "id": "q281-anastomotic-loop"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "marginal a.",
+    "hint": "X沿結腸X連接各結腸動脈。",
+    "note": "",
+    "marked": false,
+    "id": "q282-marginal-a"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
@@ -1573,23 +2261,39 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由臍尿管遺跡形成，位於腹前壁正中。",
     "note": "",
     "marked": true,
-    "id": "q197-median-umbilical-fold"
+    "id": "q283-median-umbilical-fold"
   },
   {
     "section": "腹腔臟器、韌帶與腸繫膜血管",
-    "english": "medial / lateral umbilical fold",
-    "hint": "X含閉鎖臍動脈，X覆蓋腹壁下血管；用相對位置判斷。",
+    "english": "medial umbilical fold",
+    "hint": "X含閉鎖臍動脈，用相對位置判斷。",
     "note": "",
     "marked": true,
-    "id": "q198-medial-lateral-umbilical-fold"
+    "id": "q284-medial-umbilical-fold"
+  },
+  {
+    "section": "腹腔臟器、韌帶與腸繫膜血管",
+    "english": "lateral umbilical fold",
+    "hint": "X覆蓋腹壁下血管；用相對位置判斷。",
+    "note": "",
+    "marked": true,
+    "id": "q285-lateral-umbilical-fold"
   },
   {
     "section": "骨盆底與會陰肌",
-    "english": "external / internal anal sphincter m.",
+    "english": "external anal sphincter m.",
     "hint": "圍繞肛管；外括約肌為骨骼肌較外層，內括約肌為直腸環肌增厚較內層。",
     "note": "",
     "marked": false,
-    "id": "q199-external-internal-anal-sphincter-m"
+    "id": "q286-external-anal-sphincter-m"
+  },
+  {
+    "section": "骨盆底與會陰肌",
+    "english": "internal anal sphincter m.",
+    "hint": "圍繞肛管；外括約肌為骨骼肌較外層，內括約肌為直腸環肌增厚較內層。",
+    "note": "",
+    "marked": false,
+    "id": "q287-internal-anal-sphincter-m"
   },
   {
     "section": "骨盆底與會陰肌",
@@ -1597,7 +2301,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "包覆陰莖球或前庭球，位在會陰淺隙中央偏前。",
     "note": "",
     "marked": true,
-    "id": "q200-bulbospongiosus-m"
+    "id": "q288-bulbospongiosus-m"
   },
   {
     "section": "骨盆底與會陰肌",
@@ -1605,15 +2309,15 @@ window.ANATOMY_QUESTIONS = [
     "hint": "髂窩內大片肌，與腰大肌會合成 iliopsoas 下行。",
     "note": "",
     "marked": false,
-    "id": "q201-iliacus-m"
+    "id": "q289-iliacus-m"
   },
   {
     "section": "骨盆底與會陰肌",
     "english": "coccygeus m.",
-    "hint": "薦棘韌帶附近、骨盆底後外側，從坐骨棘到尾骨與薦骨。",
+    "hint": "薦棘韌帶附近、骨盆底後外側，從坐骨棘到X與薦骨。",
     "note": "",
     "marked": false,
-    "id": "q202-coccygeus-m"
+    "id": "q290-coccygeus-m"
   },
   {
     "section": "骨盆底與會陰肌",
@@ -1621,15 +2325,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "骨盆底主要薄片肌，圍成漏斗狀支撐骨盆臟器。",
     "note": "",
     "marked": true,
-    "id": "q203-levator-ani-m"
+    "id": "q291-levator-ani-m"
   },
   {
     "section": "骨盆底與會陰肌",
-    "english": "superficial / deep transverse perineal m.",
-    "hint": "橫向連坐骨支與會陰體；淺層較表面，深層在會陰深隙。",
+    "english": "superficial transverse perineal m.",
+    "hint": "橫向連坐骨支與會陰體；淺層較表面，深層在X隙。",
     "note": "",
     "marked": false,
-    "id": "q204-superficial-deep-transverse-perineal-m"
+    "id": "q292-superficial-transverse-perineal-m"
+  },
+  {
+    "section": "骨盆底與會陰肌",
+    "english": "deep transverse perineal m.",
+    "hint": "橫向連坐骨支與會陰體；淺層較表面，深層在X隙。",
+    "note": "",
+    "marked": false,
+    "id": "q293-deep-transverse-perineal-m"
   },
   {
     "section": "骨盆底與會陰肌",
@@ -1637,7 +2349,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "女性會陰深隙，橫跨尿道前方；看是否包夾尿道。",
     "note": "",
     "marked": false,
-    "id": "q205-compressor-urethrae-m"
+    "id": "q294-compressor-urethrae-m"
   },
   {
     "section": "骨盆底與會陰肌",
@@ -1645,7 +2357,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "覆蓋陰莖腳或陰蒂腳，貼坐骨恥骨支內側。",
     "note": "",
     "marked": true,
-    "id": "q206-ischiocavernosus-m"
+    "id": "q295-ischiocavernosus-m"
   },
   {
     "section": "骨盆底與會陰肌",
@@ -1653,7 +2365,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "精索外層薄肌束，隨精索到睪丸上方。",
     "note": "容易遺忘",
     "marked": true,
-    "id": "q207-cremaster-m"
+    "id": "q296-cremaster-m"
   },
   {
     "section": "內髂動脈及其分支",
@@ -1661,7 +2373,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "總髂動脈分支後進入骨盆，短幹後分前後幹。",
     "note": "",
     "marked": false,
-    "id": "q208-internal-iliac-a"
+    "id": "q297-internal-iliac-a"
   },
   {
     "section": "內髂動脈及其分支",
@@ -1669,7 +2381,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "多供骨盆壁與臀區；看是否分出上臀、髂腰、外側薦動脈。",
     "note": "",
     "marked": false,
-    "id": "q209-posterior-branch-of-internal-iliac-a"
+    "id": "q298-posterior-branch-of-internal-iliac-a"
   },
   {
     "section": "內髂動脈及其分支",
@@ -1677,7 +2389,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由骨盆後方出大坐骨孔，通常在腰薦幹與 S1 之間。",
     "note": "",
     "marked": true,
-    "id": "q210-superior-gluteal-a"
+    "id": "q299-superior-gluteal-a"
   },
   {
     "section": "內髂動脈及其分支",
@@ -1685,7 +2397,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "沿薦骨前孔附近下行，較細。",
     "note": "容易遺忘",
     "marked": true,
-    "id": "q211-lateral-sacral-a"
+    "id": "q300-lateral-sacral-a"
   },
   {
     "section": "內髂動脈及其分支",
@@ -1693,7 +2405,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "往髂窩與腰方肌、髂肌方向走。",
     "note": "容易遺忘",
     "marked": true,
-    "id": "q212-iliolumbar-a"
+    "id": "q301-iliolumbar-a"
   },
   {
     "section": "內髂動脈及其分支",
@@ -1701,15 +2413,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "供骨盆臟器、會陰與下臀區；走向臟器者多從前幹來。",
     "note": "",
     "marked": false,
-    "id": "q213-anterior-branch-of-internal-iliac-a"
+    "id": "q302-anterior-branch-of-internal-iliac-a"
   },
   {
     "section": "內髂動脈及其分支",
-    "english": "umbilical a. / umbilical fold",
-    "hint": "近端仍是X，遠端閉鎖形成內側X；綁近端寫 a.，遠端寫 fold。",
+    "english": "umbilical a.",
+    "hint": "近端仍是X，綁近端寫 a.",
     "note": "",
     "marked": true,
-    "id": "q214-umbilical-a-umbilical-fold"
+    "id": "q303-umbilical-a"
+  },
+  {
+    "section": "內髂動脈及其分支",
+    "english": "umbilical fold",
+    "hint": "遠端閉鎖形成內側X；綁近端寫 a.",
+    "note": "",
+    "marked": true,
+    "id": "q304-umbilical-fold"
   },
   {
     "section": "內髂動脈及其分支",
@@ -1717,31 +2437,47 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由臍動脈近端分出到膀胱上部。",
     "note": "",
     "marked": true,
-    "id": "q215-superior-vesical-a"
+    "id": "q305-superior-vesical-a"
   },
   {
     "section": "內髂動脈及其分支",
     "english": "obturator a.",
-    "hint": "沿骨盆側壁走向閉孔管，常與閉孔神經、靜脈同行。",
+    "hint": "沿骨盆側壁走向X管，常與X神經、靜脈同行。",
     "note": "",
     "marked": true,
-    "id": "q216-obturator-a"
+    "id": "q306-obturator-a"
   },
   {
     "section": "內髂動脈及其分支",
-    "english": "inferior vesical / middle rectal a.",
-    "hint": "X往膀胱底或攝護腺，X往直腸中部；看血管走去哪個器官。",
+    "english": "inferior vesical a.",
+    "hint": "X往膀胱底或攝護腺，看血管走去哪個器官。",
     "note": "",
     "marked": true,
-    "id": "q217-inferior-vesical-middle-rectal-a"
+    "id": "q307-inferior-vesical-a"
   },
   {
     "section": "內髂動脈及其分支",
-    "english": "internal pudendal a. / inferior rectal a.",
-    "hint": "X離開骨盆後繞薦棘、薦結節韌帶再入會陰；X供肛管周圍。",
+    "english": "middle rectal a.",
+    "hint": "X往直腸中部；看血管走去哪個器官。",
     "note": "",
     "marked": true,
-    "id": "q218-internal-pudendal-a-inferior-rectal-a"
+    "id": "q308-middle-rectal-a"
+  },
+  {
+    "section": "內髂動脈及其分支",
+    "english": "internal pudendal a.",
+    "hint": "X離開骨盆後繞薦棘、薦結節韌帶再入會陰。",
+    "note": "",
+    "marked": true,
+    "id": "q309-internal-pudendal-a"
+  },
+  {
+    "section": "內髂動脈及其分支",
+    "english": "inferior rectal a.",
+    "hint": "X供肛管周圍。",
+    "note": "",
+    "marked": true,
+    "id": "q310-inferior-rectal-a"
   },
   {
     "section": "內髂動脈及其分支",
@@ -1749,23 +2485,39 @@ window.ANATOMY_QUESTIONS = [
     "hint": "常在 S2 / S3 附近出骨盆，往臀大肌深面。",
     "note": "",
     "marked": true,
-    "id": "q219-inferior-gluteal-a"
+    "id": "q311-inferior-gluteal-a"
   },
   {
     "section": "內髂動脈及其分支",
-    "english": "uterine / vaginal a.",
-    "hint": "走向子宮或陰道；X會接近子宮頸並跨輸尿管附近。",
+    "english": "uterine a.",
+    "hint": "走向X或X；X會接近X頸並跨輸尿管附近。",
     "note": "血管走去哪裡就是誰",
     "marked": true,
-    "id": "q220-uterine-vaginal-a"
+    "id": "q312-uterine-a"
+  },
+  {
+    "section": "內髂動脈及其分支",
+    "english": "vaginal a.",
+    "hint": "走向X或X。",
+    "note": "血管走去哪裡就是誰",
+    "marked": true,
+    "id": "q313-vaginal-a"
   },
   {
     "section": "骨盆與會陰靜脈",
-    "english": "external pudendal v. / superficial dorsal v.",
+    "english": "external pudendal v.",
     "hint": "淺層支往會陰外側；陰莖背側表淺層的靜脈可匯入表淺靜脈系統。",
     "note": "",
     "marked": true,
-    "id": "q221-external-pudendal-v-superficial-dorsal-v"
+    "id": "q314-external-pudendal-v"
+  },
+  {
+    "section": "骨盆與會陰靜脈",
+    "english": "superficial dorsal v.",
+    "hint": "淺層支往會陰外側；陰莖背側表淺層的靜脈可匯入表淺靜脈系統。",
+    "note": "",
+    "marked": true,
+    "id": "q315-superficial-dorsal-v"
   },
   {
     "section": "骨盆與會陰靜脈",
@@ -1773,31 +2525,47 @@ window.ANATOMY_QUESTIONS = [
     "hint": "位於陰莖背側深層、Buck fascia 內，位置比淺背靜脈深。",
     "note": "深淺要會分",
     "marked": true,
-    "id": "q222-deep-dorsal-v"
+    "id": "q316-deep-dorsal-v"
   },
   {
     "section": "骨盆與會陰靜脈",
-    "english": "external / internal iliac v.",
+    "english": "external iliac v.",
     "hint": "與同名動脈伴行，壁薄；X收骨盆臟器與臀區靜脈。",
     "note": "",
     "marked": false,
-    "id": "q223-external-internal-iliac-v"
+    "id": "q317-external-iliac-v"
+  },
+  {
+    "section": "骨盆與會陰靜脈",
+    "english": "internal iliac v.",
+    "hint": "與同名動脈伴行，壁薄；X收骨盆臟器與臀區靜脈。",
+    "note": "",
+    "marked": false,
+    "id": "q318-internal-iliac-v"
   },
   {
     "section": "骨盆與會陰靜脈",
     "english": "obturator v.",
-    "hint": "和閉孔動脈、閉孔神經一起往閉孔管。",
+    "hint": "和X動脈、X神經一起往X管。",
     "note": "",
     "marked": true,
-    "id": "q224-obturator-v"
+    "id": "q319-obturator-v"
   },
   {
     "section": "骨盆與會陰靜脈",
-    "english": "superior / inferior vesical v.",
+    "english": "superior vesical v.",
     "hint": "膀胱周圍靜脈叢匯出，依膀胱上部或下部判斷。",
     "note": "",
     "marked": true,
-    "id": "q225-superior-inferior-vesical-v"
+    "id": "q320-superior-vesical-v"
+  },
+  {
+    "section": "骨盆與會陰靜脈",
+    "english": "inferior vesical v.",
+    "hint": "膀胱周圍靜脈叢匯出，依膀胱上部或下部判斷。",
+    "note": "",
+    "marked": true,
+    "id": "q321-inferior-vesical-v"
   },
   {
     "section": "骨盆與會陰靜脈",
@@ -1805,31 +2573,47 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由直腸中段回流到內髂靜脈系統。",
     "note": "",
     "marked": true,
-    "id": "q226-middle-rectal-v"
+    "id": "q322-middle-rectal-v"
   },
   {
     "section": "骨盆與會陰靜脈",
-    "english": "superior / inferior gluteal v.",
+    "english": "superior gluteal v.",
     "hint": "伴同名動脈經大坐骨孔回骨盆；看與同名血管神經束的位置。",
     "note": "",
     "marked": true,
-    "id": "q227-superior-inferior-gluteal-v"
+    "id": "q323-superior-gluteal-v"
+  },
+  {
+    "section": "骨盆與會陰靜脈",
+    "english": "inferior gluteal v.",
+    "hint": "伴同名動脈經大坐骨孔回骨盆；看與同名血管神經束的位置。",
+    "note": "",
+    "marked": true,
+    "id": "q324-inferior-gluteal-v"
   },
   {
     "section": "骨盆與會陰靜脈",
     "english": "internal pudendal v.",
-    "hint": "伴內陰動脈、陰部神經繞薦棘與薦結節韌帶入會陰。",
+    "hint": "伴X動脈、陰部神經繞薦棘與薦結節韌帶入會陰。",
     "note": "",
     "marked": true,
-    "id": "q228-internal-pudendal-v"
+    "id": "q325-internal-pudendal-v"
   },
   {
     "section": "骨盆與會陰靜脈",
-    "english": "uterine / vaginal v.",
-    "hint": "位於子宮或陰道旁靜脈叢，依回流器官命名。",
+    "english": "uterine v.",
+    "hint": "位於X或X旁靜脈叢，依回流器官命名。",
     "note": "",
     "marked": true,
-    "id": "q229-uterine-vaginal-v"
+    "id": "q326-uterine-v"
+  },
+  {
+    "section": "骨盆與會陰靜脈",
+    "english": "vaginal v.",
+    "hint": "位於X或X旁靜脈叢，依回流器官命名。",
+    "note": "",
+    "marked": true,
+    "id": "q327-vaginal-v"
   },
   {
     "section": "骨盆神經",
@@ -1837,15 +2621,15 @@ window.ANATOMY_QUESTIONS = [
     "hint": "路過骨盆外側與髂肌、腰大肌之間往大腿，不是骨盆腔主要考點。",
     "note": "標本乾燥時，先清腹股溝韌帶附近找源頭。",
     "marked": true,
-    "id": "q230-femoral-n"
+    "id": "q328-femoral-n"
   },
   {
     "section": "骨盆神經",
     "english": "obturator n.",
-    "hint": "沿骨盆側壁往閉孔管，與閉孔血管同區。",
-    "note": "位置深，沿閉孔區路徑確認。",
+    "hint": "沿骨盆側壁往X管，與X血管同區。",
+    "note": "位置深，沿X區路徑確認。",
     "marked": true,
-    "id": "q231-obturator-n"
+    "id": "q329-obturator-n"
   },
   {
     "section": "骨盆神經",
@@ -1853,23 +2637,39 @@ window.ANATOMY_QUESTIONS = [
     "hint": "L4-L5 纖維下行加入薦叢，常在上臀血管附近。",
     "note": "",
     "marked": true,
-    "id": "q232-lumbosacral-trunk"
+    "id": "q330-lumbosacral-trunk"
   },
   {
     "section": "骨盆神經",
-    "english": "S1 / S2 / S3",
+    "english": "S1",
     "hint": "薦前孔出來的白色神經根；依上下孔洞位置判斷編號。",
     "note": "",
     "marked": false,
-    "id": "q233-s1-s2-s3"
+    "id": "q331-s1"
+  },
+  {
+    "section": "骨盆神經",
+    "english": "S2",
+    "hint": "薦前孔出來的白色神經根；依上下孔洞位置判斷編號。",
+    "note": "",
+    "marked": false,
+    "id": "q332-s2"
+  },
+  {
+    "section": "骨盆神經",
+    "english": "S3",
+    "hint": "薦前孔出來的白色神經根；依上下孔洞位置判斷編號。",
+    "note": "",
+    "marked": false,
+    "id": "q333-s3"
   },
   {
     "section": "骨盆神經",
     "english": "pudendal n.",
-    "hint": "與內陰血管一起離開骨盆，繞薦棘韌帶後入陰部管。",
+    "hint": "與內陰血管一起離開骨盆，繞薦棘韌帶後入X管。",
     "note": "",
     "marked": true,
-    "id": "q234-pudendal-n"
+    "id": "q334-pudendal-n"
   },
   {
     "section": "骨盆神經",
@@ -1877,7 +2677,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "陰部神經末支，沿陰莖上方深層走，常和深背血管接近。",
     "note": "",
     "marked": false,
-    "id": "q235-dorsal-n-of-penis"
+    "id": "q335-dorsal-n-of-penis"
   },
   {
     "section": "骨盆神經",
@@ -1885,7 +2685,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "在精索內，可能與睪丸動靜脈、輸精管、提睪肌一起考。",
     "note": "精索內部常一起考",
     "marked": true,
-    "id": "q236-genital-br-of-genitofemoral-n"
+    "id": "q336-genital-br-of-genitofemoral-n"
   },
   {
     "section": "生殖器與相關結構",
@@ -1893,7 +2693,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "陰囊內橢圓器官，後側連副睪與精索。",
     "note": "",
     "marked": false,
-    "id": "q237-testicle"
+    "id": "q337-testicle"
   },
   {
     "section": "生殖器與相關結構",
@@ -1901,7 +2701,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "精索內最硬、管壁厚的圓管，往骨盆後方到精囊。",
     "note": "",
     "marked": true,
-    "id": "q238-vas-deferens"
+    "id": "q338-vas-deferens"
   },
   {
     "section": "生殖器與相關結構",
@@ -1909,15 +2709,15 @@ window.ANATOMY_QUESTIONS = [
     "hint": "膀胱後方、攝護腺上方的囊狀腺體。",
     "note": "",
     "marked": false,
-    "id": "q239-seminal-vesicle"
+    "id": "q339-seminal-vesicle"
   },
   {
     "section": "生殖器與相關結構",
-    "english": "prostate / prostatic gland",
+    "english": "prostate",
     "hint": "膀胱下方、包繞尿道近端的腺體。",
     "note": "",
     "marked": true,
-    "id": "q240-prostate-prostatic-gland"
+    "id": "q340-prostate"
   },
   {
     "section": "生殖器與相關結構",
@@ -1925,7 +2725,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "輸精管接近精囊前的膨大段。",
     "note": "這一組很常考",
     "marked": true,
-    "id": "q241-ampulla-of-vas-deferens"
+    "id": "q341-ampulla-of-vas-deferens"
   },
   {
     "section": "生殖器與相關結構",
@@ -1933,15 +2733,31 @@ window.ANATOMY_QUESTIONS = [
     "hint": "女性骨盆中央厚壁器官，位於膀胱後、直腸前。",
     "note": "",
     "marked": false,
-    "id": "q242-uterus"
+    "id": "q342-uterus"
   },
   {
     "section": "生殖器與相關結構",
-    "english": "mesometrium / mesosalpinx / mesovarium",
-    "hint": "都是闊韌帶分區；依附著到子宮、輸卵管或卵巢判斷。",
+    "english": "mesometrium",
+    "hint": "都是闊韌帶分區；依附著到X、X或X判斷。",
     "note": "上課嚇嚇學生用",
     "marked": false,
-    "id": "q243-mesometrium-mesosalpinx-mesovarium"
+    "id": "q343-mesometrium"
+  },
+  {
+    "section": "生殖器與相關結構",
+    "english": "mesosalpinx",
+    "hint": "都是闊韌帶分區；依附著到X、X或X判斷。",
+    "note": "上課嚇嚇學生用",
+    "marked": false,
+    "id": "q344-mesosalpinx"
+  },
+  {
+    "section": "生殖器與相關結構",
+    "english": "mesovarium",
+    "hint": "都是闊韌帶分區；依附著到X、X或X判斷。",
+    "note": "上課嚇嚇學生用",
+    "marked": false,
+    "id": "q345-mesovarium"
   },
   {
     "section": "生殖器與相關結構",
@@ -1949,15 +2765,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由子宮角往腹股溝管走，腹股溝區考到時尤其重要。",
     "note": "重要，尤其從腹股溝考",
     "marked": true,
-    "id": "q244-round-ligament-of-uterus"
+    "id": "q346-round-ligament-of-uterus"
   },
   {
     "section": "生殖器與相關結構",
-    "english": "vagina anterior / posterior fornix",
+    "english": "vagina anterior",
     "hint": "陰道頂端圍繞子宮頸，X較深、靠近直腸子宮陷凹。",
     "note": "常見考點，注意 cervix 周圍的前後位置。",
     "marked": true,
-    "id": "q245-vagina-anterior-posterior-fornix"
+    "id": "q347-vagina-anterior"
+  },
+  {
+    "section": "生殖器與相關結構",
+    "english": "posterior fornix",
+    "hint": "陰道頂端圍繞子宮頸，X較深、靠近直腸子宮陷凹。",
+    "note": "常見考點，注意 cervix 周圍的前後位置。",
+    "marked": true,
+    "id": "q348-posterior-fornix"
   },
   {
     "section": "生殖器與相關結構",
@@ -1965,7 +2789,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "包住尿道，位於陰莖腹側，遠端膨大成龜頭。",
     "note": "",
     "marked": true,
-    "id": "q246-corpus-spongiosum"
+    "id": "q349-corpus-spongiosum"
   },
   {
     "section": "生殖器與相關結構",
@@ -1973,7 +2797,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "成對位於陰莖背側，較大且左右對稱。",
     "note": "常見考點，英文複數拼法要穩。",
     "marked": true,
-    "id": "q247-corpora-cavernosa"
+    "id": "q350-corpora-cavernosa"
   },
   {
     "section": "生殖器與相關結構",
@@ -1981,15 +2805,31 @@ window.ANATOMY_QUESTIONS = [
     "hint": "陰莖遠端膨大部，由尿道海綿體形成。",
     "note": "",
     "marked": false,
-    "id": "q248-glans-penis"
+    "id": "q351-glans-penis"
   },
   {
     "section": "大腿與臀區肌肉",
-    "english": "vastus lateralis / medialis / intermedius m.",
-    "hint": "股四頭肌群；X在大腿外側，X在內側淚滴狀，X在股直肌深面。",
+    "english": "vastus lateralis m.",
+    "hint": "股四頭肌群；X在大腿外側。",
     "note": "腿後方也可能看到X",
     "marked": true,
-    "id": "q249-vastus-lateralis-medialis-intermedius-m"
+    "id": "q352-vastus-lateralis-m"
+  },
+  {
+    "section": "大腿與臀區肌肉",
+    "english": "vastus medialis m.",
+    "hint": "股四頭肌群；X在內側淚滴狀。",
+    "note": "腿後方也可能看到X",
+    "marked": true,
+    "id": "q353-vastus-medialis-m"
+  },
+  {
+    "section": "大腿與臀區肌肉",
+    "english": "vastus intermedius m.",
+    "hint": "股四頭肌群；X在股直肌深面。",
+    "note": "腿後方也可能看到X",
+    "marked": true,
+    "id": "q354-vastus-intermedius-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -1997,7 +2837,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "從 ASIS 斜向內下到鵝足，細長帶狀，是股三角外側界。",
     "note": "",
     "marked": true,
-    "id": "q250-sartorius-m"
+    "id": "q355-sartorius-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -2005,7 +2845,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "大腿前中央直行，位在股中間肌表面，遠端接股四頭肌腱。",
     "note": "股四頭肌中跨髖與膝的肌束。",
     "marked": true,
-    "id": "q251-rectus-femoris-m"
+    "id": "q356-rectus-femoris-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -2013,15 +2853,31 @@ window.ANATOMY_QUESTIONS = [
     "hint": "髂前外側小肌，往下接髂脛束；在大腿外上方。",
     "note": "",
     "marked": true,
-    "id": "q252-tensor-fasciae-latae-m"
+    "id": "q357-tensor-fasciae-latae-m"
   },
   {
     "section": "大腿與臀區肌肉",
-    "english": "adductor longus / magnus / brevis m.",
-    "hint": "內收肌群在大腿內側；X較表淺，X最大最深，X常在X深面。",
+    "english": "adductor longus m.",
+    "hint": "內收肌群在大腿內側；X較表淺，X常在X深面。",
     "note": "容易混淆，對照深淺位置與附著範圍。",
     "marked": true,
-    "id": "q253-adductor-longus-magnus-brevis-m"
+    "id": "q358-adductor-longus-m"
+  },
+  {
+    "section": "大腿與臀區肌肉",
+    "english": "adductor magnus m.",
+    "hint": "內收肌群在大腿內側；X最大最深。",
+    "note": "容易混淆，對照深淺位置與附著範圍。",
+    "marked": true,
+    "id": "q359-adductor-magnus-m"
+  },
+  {
+    "section": "大腿與臀區肌肉",
+    "english": "adductor brevis m.",
+    "hint": "內收肌群在大腿內側；X常在X深面。",
+    "note": "容易混淆，對照深淺位置與附著範圍。",
+    "marked": true,
+    "id": "q360-adductor-brevis-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -2029,7 +2885,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "大腿內側最表淺、最細長，從恥骨到鵝足。",
     "note": "",
     "marked": true,
-    "id": "q254-gracilis-m"
+    "id": "q361-gracilis-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -2037,7 +2893,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "股三角底部內上方，介於髂腰肌與長收肌之間。",
     "note": "容易遺忘",
     "marked": true,
-    "id": "q255-pectineus-m"
+    "id": "q362-pectineus-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -2045,7 +2901,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "髂肌與腰大肌融合後經腹股溝韌帶下方到股骨小轉子；融合處才寫 iliopsoas。",
     "note": "髂肌、腰肌融合處才可寫",
     "marked": true,
-    "id": "q256-iliopsoas-m"
+    "id": "q363-iliopsoas-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -2053,7 +2909,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "大腿後內側較深、近端肌腱寬扁如膜。",
     "note": "",
     "marked": true,
-    "id": "q257-semimembranosus-m"
+    "id": "q364-semimembranosus-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -2061,39 +2917,79 @@ window.ANATOMY_QUESTIONS = [
     "hint": "大腿後內側較表淺，遠端長腱加入鵝足，可被紗布蓋遠端考。",
     "note": "橘色三條肌腱融合形成 pes anserinus",
     "marked": true,
-    "id": "q258-semitendinosus-m"
+    "id": "q365-semitendinosus-m"
   },
   {
     "section": "大腿與臀區肌肉",
-    "english": "biceps femoris m. long / short head",
+    "english": "biceps femoris m. long head",
     "hint": "大腿後外側；長頭由坐骨結節來，X由股骨後方來，兩者遠端往腓骨頭。",
     "note": "要寫頭，可以蓋紗布考起點",
     "marked": true,
-    "id": "q259-biceps-femoris-m-long-short-head"
+    "id": "q366-biceps-femoris-m-long-head"
   },
   {
     "section": "大腿與臀區肌肉",
-    "english": "gluteus maximus / medius / minimus m.",
-    "hint": "X最大最表淺；翻開X後，呈扇形往下外側到大轉子的是X；X在X深面。",
+    "english": "biceps femoris m. short head",
+    "hint": "大腿後外側；長頭由坐骨結節來，X由股骨後方來，兩者遠端往腓骨頭。",
+    "note": "要寫頭，可以蓋紗布考起點",
+    "marked": true,
+    "id": "q367-biceps-femoris-m-short-head"
+  },
+  {
+    "section": "大腿與臀區肌肉",
+    "english": "gluteus maximus m.",
+    "hint": "臀區最大且最表層，纖維往髂脛束與股骨方向。",
     "note": "可能剪開肌肉，判斷時看纖維走向。",
     "marked": true,
-    "id": "q260-gluteus-maximus-medius-minimus-m"
+    "id": "q368-gluteus-maximus-m"
   },
   {
     "section": "大腿與臀區肌肉",
-    "english": "superior / inferior gemellus m.",
+    "english": "gluteus medius m.",
+    "hint": "翻開表層大肌後可見，扇形往下外側到大轉子。",
+    "note": "可能剪開肌肉，判斷時看纖維走向。",
+    "marked": true,
+    "id": "q369-gluteus-medius-m"
+  },
+  {
+    "section": "大腿與臀區肌肉",
+    "english": "gluteus minimus m.",
+    "hint": "臀區最深層，貼髂骨外側面，往大轉子前方。",
+    "note": "可能剪開肌肉，判斷時看纖維走向。",
+    "marked": true,
+    "id": "q370-gluteus-minimus-m"
+  },
+  {
+    "section": "大腿與臀區肌肉",
+    "english": "superior gemellus m.",
     "hint": "夾住閉孔內肌肌腱的兩條小肌，X在上、X在下。",
     "note": "",
     "marked": true,
-    "id": "q261-superior-inferior-gemellus-m"
+    "id": "q371-superior-gemellus-m"
   },
   {
     "section": "大腿與臀區肌肉",
-    "english": "obturator externus / internus m.",
-    "hint": "X肌腱從小坐骨孔轉出，兩側有孖肌；X較深，在股骨頸後下方。",
+    "english": "inferior gemellus m.",
+    "hint": "夾住閉孔內肌肌腱的兩條小肌，X在上、X在下。",
+    "note": "",
+    "marked": true,
+    "id": "q372-inferior-gemellus-m"
+  },
+  {
+    "section": "大腿與臀區肌肉",
+    "english": "obturator externus m.",
+    "hint": "兩側有孖肌；X較深。",
     "note": "臀區重要標記",
     "marked": true,
-    "id": "q262-obturator-externus-internus-m"
+    "id": "q373-obturator-externus-m"
+  },
+  {
+    "section": "大腿與臀區肌肉",
+    "english": "obturator internus m.",
+    "hint": "X肌腱從小坐骨孔轉出，兩側有孖肌。",
+    "note": "臀區重要標記",
+    "marked": true,
+    "id": "q374-obturator-internus-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -2101,7 +2997,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由薦骨前面經大坐骨孔到大轉子；下方最重要的是坐骨神經，通常有手指般粗細。",
     "note": "",
     "marked": true,
-    "id": "q263-piriformis-m"
+    "id": "q375-piriformis-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -2109,7 +3005,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "坐骨結節到股骨轉子間嵴，呈短方形，位於下孖肌下方。",
     "note": "",
     "marked": true,
-    "id": "q264-quadratus-femoris-m"
+    "id": "q376-quadratus-femoris-m"
   },
   {
     "section": "大腿與臀區肌肉",
@@ -2117,39 +3013,79 @@ window.ANATOMY_QUESTIONS = [
     "hint": "股骨遠端前面到髕上囊的小肌，股四頭肌深面，常很小。",
     "note": "",
     "marked": true,
-    "id": "q265-articularis-genus-m"
+    "id": "q377-articularis-genus-m"
   },
   {
     "section": "小腿與足部肌肉",
-    "english": "tibialis anterior / posterior m.",
-    "hint": "X在小腿前室、貼脛骨外側；X在深後室，肌腱經內踝後方。",
+    "english": "tibialis anterior m.",
+    "hint": "X在小腿前室、貼脛骨外側；肌腱經內踝後方。",
     "note": "",
     "marked": true,
-    "id": "q266-tibialis-anterior-posterior-m"
+    "id": "q378-tibialis-anterior-m"
   },
   {
     "section": "小腿與足部肌肉",
-    "english": "extensor digitorum / hallucis longus m.",
-    "hint": "前室肌；X肌腱走向大拇趾，X分到第 2-5 趾。",
+    "english": "tibialis posterior m.",
+    "hint": "X在深後室，肌腱經內踝後方。",
     "note": "",
     "marked": true,
-    "id": "q267-extensor-digitorum-hallucis-longus-m"
+    "id": "q379-tibialis-posterior-m"
   },
   {
     "section": "小腿與足部肌肉",
-    "english": "fibularis longus / brevis / tertius m.",
-    "hint": "X短肌在外側室、肌腱繞外踝；X在前外側且較明顯。",
+    "english": "extensor digitorum longus m.",
+    "hint": "前室肌；X分到第 2-5 趾。",
+    "note": "",
+    "marked": true,
+    "id": "q380-extensor-digitorum-longus-m"
+  },
+  {
+    "section": "小腿與足部肌肉",
+    "english": "extensor hallucis longus m.",
+    "hint": "前室肌；X肌腱走向大拇趾。",
+    "note": "",
+    "marked": true,
+    "id": "q381-extensor-hallucis-longus-m"
+  },
+  {
+    "section": "小腿與足部肌肉",
+    "english": "fibularis longus m.",
+    "hint": "外側室較表層，長肌腱繞外踝後進足底。",
     "note": "X明顯，其餘兩個看肌腱附著",
     "marked": true,
-    "id": "q268-fibularis-longus-brevis-tertius-m"
+    "id": "q382-fibularis-longus-m"
   },
   {
     "section": "小腿與足部肌肉",
-    "english": "gastrocnemius m. lateral / medial head",
+    "english": "fibularis brevis m.",
+    "hint": "外側室較深，肌腱繞外踝後往第五蹠骨。",
+    "note": "X明顯，其餘兩個看肌腱附著",
+    "marked": true,
+    "id": "q383-fibularis-brevis-m"
+  },
+  {
+    "section": "小腿與足部肌肉",
+    "english": "fibularis tertius m.",
+    "hint": "前外側較明顯，肌腱往第五蹠骨背側。",
+    "note": "X明顯，其餘兩個看肌腱附著",
+    "marked": true,
+    "id": "q384-fibularis-tertius-m"
+  },
+  {
+    "section": "小腿與足部肌肉",
+    "english": "gastrocnemius m. lateral head",
     "hint": "小腿後表層兩個肌腹，分別起於股骨髁上方，遠端匯入阿基里斯腱。",
     "note": "作答時保留 lateral / medial head。",
     "marked": true,
-    "id": "q269-gastrocnemius-m-lateral-medial-head"
+    "id": "q385-gastrocnemius-m-lateral-head"
+  },
+  {
+    "section": "小腿與足部肌肉",
+    "english": "gastrocnemius m. medial head",
+    "hint": "小腿後表層兩個肌腹，分別起於股骨髁上方，遠端匯入阿基里斯腱。",
+    "note": "作答時保留 lateral / medial head。",
+    "marked": true,
+    "id": "q386-gastrocnemius-m-medial-head"
   },
   {
     "section": "小腿與足部肌肉",
@@ -2157,7 +3093,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "腓腸肌深面，寬扁，遠端和腓腸肌共同形成阿基里斯腱。",
     "note": "",
     "marked": true,
-    "id": "q270-soleus-m"
+    "id": "q387-soleus-m"
   },
   {
     "section": "小腿與足部肌肉",
@@ -2165,7 +3101,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "膕窩附近小肌腹加一條很細、發亮的長腱。",
     "note": "膕窩處一條很細閃閃的 tendon",
     "marked": true,
-    "id": "q271-plantaris-m"
+    "id": "q388-plantaris-m"
   },
   {
     "section": "小腿與足部肌肉",
@@ -2173,47 +3109,87 @@ window.ANATOMY_QUESTIONS = [
     "hint": "膝後深層小三角肌，位於膕窩底部。",
     "note": "膕窩另一位肌肉",
     "marked": true,
-    "id": "q272-popliteus-m"
+    "id": "q389-popliteus-m"
   },
   {
     "section": "小腿與足部肌肉",
-    "english": "flexor digitorum / hallucis longus m.",
-    "hint": "深後室肌；X肌腱往大拇趾，X往第 2-5 趾，踝後排列要熟。",
+    "english": "flexor digitorum longus m.",
+    "hint": "深後室肌；X往第 2-5 趾。",
     "note": "不同處的肌腱排列要注意",
     "marked": true,
-    "id": "q273-flexor-digitorum-hallucis-longus-m"
+    "id": "q390-flexor-digitorum-longus-m"
   },
   {
     "section": "小腿與足部肌肉",
-    "english": "plantar / dorsal interossei m.",
-    "hint": "位於蹠骨之間；X較偏足底、內收趾，X較背側、外展趾。",
+    "english": "flexor hallucis longus m.",
+    "hint": "深後室肌；X肌腱往大拇趾。",
+    "note": "不同處的肌腱排列要注意",
+    "marked": true,
+    "id": "q391-flexor-hallucis-longus-m"
+  },
+  {
+    "section": "小腿與足部肌肉",
+    "english": "plantar interossei m.",
+    "hint": "位於蹠骨之間，偏 plantar side，功能偏內收趾。",
     "note": "",
     "marked": false,
-    "id": "q274-plantar-dorsal-interossei-m"
+    "id": "q392-plantar-interossei-m"
   },
   {
     "section": "小腿與足部肌肉",
-    "english": "extensor / flexor digitorum brevis m.",
-    "hint": "X在足背外側；X在足底中央、蹠腱膜深面。",
+    "english": "dorsal interossei m.",
+    "hint": "位於蹠骨之間，偏 dorsal side，功能偏外展趾。",
+    "note": "",
+    "marked": false,
+    "id": "q393-dorsal-interossei-m"
+  },
+  {
+    "section": "小腿與足部肌肉",
+    "english": "extensor digitorum brevis m.",
+    "hint": "X在足背外側。",
     "note": "",
     "marked": true,
-    "id": "q275-extensor-flexor-digitorum-brevis-m"
+    "id": "q394-extensor-digitorum-brevis-m"
   },
   {
     "section": "小腿與足部肌肉",
-    "english": "extensor / flexor hallucis brevis m.",
-    "hint": "X在足背內側到拇趾；X在足底內側，內外側頭要分清。",
+    "english": "flexor digitorum brevis m.",
+    "hint": "X在足底中央、蹠腱膜深面。",
+    "note": "",
+    "marked": true,
+    "id": "q395-flexor-digitorum-brevis-m"
+  },
+  {
+    "section": "小腿與足部肌肉",
+    "english": "extensor hallucis brevis m.",
+    "hint": "X在足背內側到拇趾；內外側頭要分清。",
     "note": "注意 flexor hallucis brevis 的外側頭與內側頭。",
     "marked": true,
-    "id": "q276-extensor-flexor-hallucis-brevis-m"
+    "id": "q396-extensor-hallucis-brevis-m"
   },
   {
     "section": "小腿與足部肌肉",
-    "english": "abductor / adductor hallucis m.",
-    "hint": "X在足底最內側；X較深，有橫頭與斜頭，斜頭別忘。",
+    "english": "flexor hallucis brevis m.",
+    "hint": "X在足底內側，內外側頭要分清。",
+    "note": "注意 flexor hallucis brevis 的外側頭與內側頭。",
+    "marked": true,
+    "id": "q397-flexor-hallucis-brevis-m"
+  },
+  {
+    "section": "小腿與足部肌肉",
+    "english": "abductor hallucis m.",
+    "hint": "X在足底最內側；有橫頭與斜頭。",
     "note": "adductor hallucis 有 oblique head",
     "marked": true,
-    "id": "q277-abductor-adductor-hallucis-m"
+    "id": "q398-abductor-hallucis-m"
+  },
+  {
+    "section": "小腿與足部肌肉",
+    "english": "adductor hallucis m.",
+    "hint": "X較深，有橫頭與斜頭。",
+    "note": "adductor hallucis 有 oblique head",
+    "marked": true,
+    "id": "q399-adductor-hallucis-m"
   },
   {
     "section": "小腿與足部肌肉",
@@ -2221,7 +3197,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "足底最外側，沿外側緣到小趾。",
     "note": "最外側",
     "marked": true,
-    "id": "q278-abductor-digiti-minimi-m"
+    "id": "q400-abductor-digiti-minimi-m"
   },
   {
     "section": "小腿與足部肌肉",
@@ -2229,7 +3205,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "足底深層，從跟骨到趾長屈肌肌腱，幫助調整拉力方向。",
     "note": "",
     "marked": true,
-    "id": "q279-quadratus-plantae-m"
+    "id": "q401-quadratus-plantae-m"
   },
   {
     "section": "小腿與足部肌肉",
@@ -2237,7 +3213,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "足底外側較深，從第五蹠骨附近到小趾。",
     "note": "",
     "marked": true,
-    "id": "q280-flexor-digiti-minimi-brevis-m"
+    "id": "q402-flexor-digiti-minimi-brevis-m"
   },
   {
     "section": "小腿與足部肌肉",
@@ -2245,15 +3221,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由趾長屈肌腱旁發出，細長如蚓，走向趾背腱膜。",
     "note": "",
     "marked": true,
-    "id": "q281-lumbricals-m"
+    "id": "q403-lumbricals-m"
   },
   {
     "section": "下肢動脈",
-    "english": "external iliac a. / femoral a.",
+    "english": "external iliac a.",
     "hint": "X過腹股溝韌帶後改名X；股三角內位在股靜脈外側、股神經內側。",
     "note": "",
     "marked": true,
-    "id": "q282-external-iliac-a-femoral-a"
+    "id": "q404-external-iliac-a"
+  },
+  {
+    "section": "下肢動脈",
+    "english": "femoral a.",
+    "hint": "X過腹股溝韌帶後改名X；股三角內位在股靜脈外側、股神經內側。",
+    "note": "",
+    "marked": true,
+    "id": "q405-femoral-a"
   },
   {
     "section": "下肢動脈",
@@ -2261,23 +3245,39 @@ window.ANATOMY_QUESTIONS = [
     "hint": "股動脈穿收肌裂孔後到膕窩改名；在膕窩最深，貼骨關節囊。",
     "note": "",
     "marked": true,
-    "id": "q283-popliteal-a"
+    "id": "q406-popliteal-a"
   },
   {
     "section": "下肢動脈",
-    "english": "posterior tibial a. / fibular a.",
-    "hint": "X在小腿後室往內踝後方；X往腓骨內側深部下行。",
+    "english": "posterior tibial a.",
+    "hint": "X在小腿後室往內踝後方。",
     "note": "",
     "marked": true,
-    "id": "q284-posterior-tibial-a-fibular-a"
+    "id": "q407-posterior-tibial-a"
   },
   {
     "section": "下肢動脈",
-    "english": "lateral / medial plantar a.",
+    "english": "fibular a.",
+    "hint": "X往X內側深部下行。",
+    "note": "",
+    "marked": true,
+    "id": "q408-fibular-a"
+  },
+  {
+    "section": "下肢動脈",
+    "english": "lateral plantar a.",
+    "hint": "脛後動脈到足底後分支；X較大。",
+    "note": "",
+    "marked": true,
+    "id": "q409-lateral-plantar-a"
+  },
+  {
+    "section": "下肢動脈",
+    "english": "medial plantar a.",
     "hint": "脛後動脈到足底後分支；X較大，形成足底弓。",
     "note": "",
     "marked": true,
-    "id": "q285-lateral-medial-plantar-a"
+    "id": "q410-medial-plantar-a"
   },
   {
     "section": "下肢動脈",
@@ -2285,15 +3285,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "穿骨間膜到前室，與深腓神經伴行下行。",
     "note": "",
     "marked": true,
-    "id": "q286-anterior-tibial-a"
+    "id": "q411-anterior-tibial-a"
   },
   {
     "section": "下肢動脈",
-    "english": "anterior tibial recurrent a. / dorsal pedis a.",
-    "hint": "X往膝前上行；X是脛前動脈過踝後在足背延續。",
+    "english": "anterior tibial recurrent a.",
+    "hint": "X往膝前上行。",
     "note": "講義有列入，和 anterior tibial a. 的延續關係一起記。",
     "marked": true,
-    "id": "q287-anterior-tibial-recurrent-a-dorsal-pedis-a"
+    "id": "q412-anterior-tibial-recurrent-a"
+  },
+  {
+    "section": "下肢動脈",
+    "english": "dorsal pedis a.",
+    "hint": "X是脛前動脈過踝後在X延續。",
+    "note": "講義有列入，和 anterior tibial a. 的延續關係一起記。",
+    "marked": true,
+    "id": "q413-dorsal-pedis-a"
   },
   {
     "section": "下肢動脈",
@@ -2301,15 +3309,31 @@ window.ANATOMY_QUESTIONS = [
     "hint": "股動脈在股三角分出，往深部與後側供大腿。",
     "note": "",
     "marked": true,
-    "id": "q288-deep-femoral-a"
+    "id": "q414-deep-femoral-a"
   },
   {
     "section": "下肢動脈",
-    "english": "lateral circumflex femoral a. ascending / transverse / descending br.",
-    "hint": "由股深動脈分出；橫支橫向到股外側，上行到臀前外側，下行沿股外側往膝。",
+    "english": "lateral circumflex femoral a. ascending br.",
+    "hint": "由股深動脈分出；橫支橫向到股外側，上行到臀前外側，X沿股外側往膝。",
     "note": "以 transverse branch 為高頻考點，ascending / descending branch 一起辨認。",
     "marked": true,
-    "id": "q289-lateral-circumflex-femoral-a-ascending-transvers"
+    "id": "q415-lateral-circumflex-femoral-a-ascending-br"
+  },
+  {
+    "section": "下肢動脈",
+    "english": "lateral circumflex femoral a. transverse br.",
+    "hint": "由股深動脈分出；橫支橫向到股外側，上行到臀前外側，X沿股外側往膝。",
+    "note": "以 transverse branch 為高頻考點，ascending / descending branch 一起辨認。",
+    "marked": true,
+    "id": "q416-lateral-circumflex-femoral-a-transverse-br"
+  },
+  {
+    "section": "下肢動脈",
+    "english": "lateral circumflex femoral a. descending br.",
+    "hint": "由股深動脈分出；橫支橫向到股外側，上行到臀前外側，X沿股外側往膝。",
+    "note": "以 transverse branch 為高頻考點，ascending / descending branch 一起辨認。",
+    "marked": true,
+    "id": "q417-lateral-circumflex-femoral-a-descending-br"
   },
   {
     "section": "下肢動脈",
@@ -2317,7 +3341,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "繞股骨頸後方，位置較深，常在內收肌群與髂腰肌附近。",
     "note": "",
     "marked": true,
-    "id": "q290-medial-circumflex-femoral-a"
+    "id": "q418-medial-circumflex-femoral-a"
   },
   {
     "section": "下肢動脈",
@@ -2325,15 +3349,31 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由股深動脈穿大收肌到後側；後側可見，通常第 1-2 支較容易考。",
     "note": "第 3-4 支較深，實際標本不一定清楚。",
     "marked": true,
-    "id": "q291-perforating-a-1-4"
+    "id": "q419-perforating-a-1-4"
   },
   {
     "section": "下肢動脈",
-    "english": "superficial circumflex iliac / superficial external pudendal / superficial epigastric a.",
+    "english": "superficial circumflex iliac a.",
     "hint": "股動脈近端淺支；分別往髂嵴、外陰、腹前壁。",
     "note": "",
     "marked": false,
-    "id": "q292-superficial-circumflex-iliac-superficial-externa"
+    "id": "q420-superficial-circumflex-iliac-a"
+  },
+  {
+    "section": "下肢動脈",
+    "english": "superficial external pudendal a.",
+    "hint": "股動脈近端淺支；分別往髂嵴、外陰、腹前壁。",
+    "note": "",
+    "marked": false,
+    "id": "q421-superficial-external-pudendal-a"
+  },
+  {
+    "section": "下肢動脈",
+    "english": "superficial epigastric a.",
+    "hint": "股動脈近端淺支；分別往髂嵴、外陰、腹前壁。",
+    "note": "",
+    "marked": false,
+    "id": "q422-superficial-epigastric-a"
   },
   {
     "section": "下肢靜脈",
@@ -2341,7 +3381,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "股三角內在股動脈內側，壁薄，往上續外髂靜脈。",
     "note": "",
     "marked": true,
-    "id": "q293-femoral-v"
+    "id": "q423-femoral-v"
   },
   {
     "section": "下肢靜脈",
@@ -2349,15 +3389,15 @@ window.ANATOMY_QUESTIONS = [
     "hint": "下肢內側表淺上行，於隱靜脈裂孔匯入股靜脈。",
     "note": "常見考點，留意匯入位置與淺層走向。",
     "marked": true,
-    "id": "q294-great-saphenous-v"
+    "id": "q424-great-saphenous-v"
   },
   {
     "section": "下肢靜脈",
     "english": "external pudendal v.",
-    "hint": "可匯入大隱靜脈或股靜脈，往外陰區。",
+    "hint": "可匯入大隱靜脈或股靜脈，往X區。",
     "note": "",
     "marked": false,
-    "id": "q295-external-pudendal-v"
+    "id": "q425-external-pudendal-v"
   },
   {
     "section": "下肢靜脈",
@@ -2365,15 +3405,15 @@ window.ANATOMY_QUESTIONS = [
     "hint": "足背表淺弓狀靜脈，和足背神經分支混淆時看是否為靜脈且來源接大 / 小隱靜脈。",
     "note": "易與 superficial fibular n. 的足背分支混淆。",
     "marked": true,
-    "id": "q296-dorsal-venous-arch"
+    "id": "q426-dorsal-venous-arch"
   },
   {
     "section": "下肢靜脈",
     "english": "deep femoral v.",
-    "hint": "伴股深動脈回流大腿深部，匯入股靜脈。",
+    "hint": "伴X動脈回流大腿深部，匯入股靜脈。",
     "note": "",
     "marked": true,
-    "id": "q297-deep-femoral-v"
+    "id": "q427-deep-femoral-v"
   },
   {
     "section": "下肢靜脈",
@@ -2381,7 +3421,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "膕窩中伴膕動脈，位置較動脈淺，收小隱靜脈。",
     "note": "",
     "marked": true,
-    "id": "q298-popliteal-v"
+    "id": "q428-popliteal-v"
   },
   {
     "section": "下肢靜脈",
@@ -2389,15 +3429,31 @@ window.ANATOMY_QUESTIONS = [
     "hint": "小腿後側中線表淺上行，通常入膕靜脈。",
     "note": "常見考點，留意小腿後側中線與匯入位置。",
     "marked": true,
-    "id": "q299-small-saphenous-v"
+    "id": "q429-small-saphenous-v"
   },
   {
     "section": "下肢靜脈",
-    "english": "posterior tibial / fibular / anterior tibial v.",
+    "english": "posterior tibial v.",
     "hint": "伴同名動脈，通常成對衛星靜脈；看伴行動脈所在肌室。",
     "note": "fibular v. 是常見考點，注意伴行動脈。",
     "marked": true,
-    "id": "q300-posterior-tibial-fibular-anterior-tibial-v"
+    "id": "q430-posterior-tibial-v"
+  },
+  {
+    "section": "下肢靜脈",
+    "english": "posterior fibular v.",
+    "hint": "伴同名動脈，通常成對衛星靜脈；看伴行動脈所在肌室。",
+    "note": "fibular v. 是常見考點，注意伴行動脈。",
+    "marked": true,
+    "id": "q431-posterior-fibular-v"
+  },
+  {
+    "section": "下肢靜脈",
+    "english": "anterior tibial v.",
+    "hint": "伴同名動脈，通常成對衛星靜脈；看伴行動脈所在肌室。",
+    "note": "fibular v. 是常見考點，注意伴行動脈。",
+    "marked": true,
+    "id": "q432-anterior-tibial-v"
   },
   {
     "section": "下肢神經",
@@ -2405,7 +3461,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "ASIS 內側穿腹股溝韌帶下方到大腿外側皮膚。",
     "note": "",
     "marked": true,
-    "id": "q301-lateral-femoral-cutaneous-n"
+    "id": "q433-lateral-femoral-cutaneous-n"
   },
   {
     "section": "下肢神經",
@@ -2413,7 +3469,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "股三角內最外側、分支多；乾掉時先清腹股溝韌帶附近看源頭。",
     "note": "標本乾燥時，先清腹股溝韌帶附近找源頭。",
     "marked": true,
-    "id": "q302-femoral-n"
+    "id": "q434-femoral-n"
   },
   {
     "section": "下肢神經",
@@ -2421,7 +3477,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "股神經表淺分支，往大腿前側皮膚；可穿過或經過股薄肌附近，判斷時看走向。",
     "note": "",
     "marked": true,
-    "id": "q303-anterior-femoral-cutaneous-n"
+    "id": "q435-anterior-femoral-cutaneous-n"
   },
   {
     "section": "下肢神經",
@@ -2429,7 +3485,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "股神經最長皮支，進內收肌管與股血管同行，後來到大隱靜脈附近。",
     "note": "",
     "marked": true,
-    "id": "q304-saphenous-n"
+    "id": "q436-saphenous-n"
   },
   {
     "section": "下肢神經",
@@ -2437,23 +3493,31 @@ window.ANATOMY_QUESTIONS = [
     "hint": "股神經分支，走向X；看到神經直接進此肌可判斷。",
     "note": "",
     "marked": true,
-    "id": "q305-n-to-vastus-medialis-m"
+    "id": "q437-n-to-vastus-medialis-m"
   },
   {
     "section": "下肢神經",
-    "english": "superior / inferior gluteal n.",
-    "hint": "需和同名血管從骨盆追到臀區確認；上臀供臀中小肌與闊筋膜張肌，下臀供臀大肌。",
+    "english": "superior gluteal n.",
+    "hint": "需和同名血管從骨盆追到臀區確認；X供臀中小肌與闊筋膜張肌。",
     "note": "剖骨盆時要通到後面確認身分",
     "marked": true,
-    "id": "q306-superior-inferior-gluteal-n"
+    "id": "q438-superior-gluteal-n"
+  },
+  {
+    "section": "下肢神經",
+    "english": "inferior gluteal n.",
+    "hint": "需和同名血管從骨盆追到臀區確認；X供臀大肌。",
+    "note": "剖骨盆時要通到後面確認身分",
+    "marked": true,
+    "id": "q439-inferior-gluteal-n"
   },
   {
     "section": "下肢神經",
     "english": "sciatic n.",
-    "hint": "梨狀肌下方出大坐骨孔，手指般粗細，是身體最粗最長神經，往大腿後側下行。",
+    "hint": "梨狀肌下方出大X孔，手指般粗細，是身體最粗最長神經，往大腿後側下行。",
     "note": "",
     "marked": true,
-    "id": "q307-sciatic-n"
+    "id": "q440-sciatic-n"
   },
   {
     "section": "下肢神經",
@@ -2461,7 +3525,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "坐骨神經外側分支，沿股二頭肌內側緣到腓骨頸，容易被綁。",
     "note": "",
     "marked": true,
-    "id": "q308-common-fibular-n"
+    "id": "q441-common-fibular-n"
   },
   {
     "section": "下肢神經",
@@ -2469,7 +3533,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "穿入前室，與脛前動脈伴行到足背第一、二趾間。",
     "note": "",
     "marked": true,
-    "id": "q309-deep-fibular-n"
+    "id": "q442-deep-fibular-n"
   },
   {
     "section": "下肢神經",
@@ -2477,15 +3541,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "在外側室下行，小腿下 1 / 3 穿出筋膜到足背。",
     "note": "",
     "marked": true,
-    "id": "q310-superficial-fibular-n"
+    "id": "q443-superficial-fibular-n"
   },
   {
     "section": "下肢神經",
-    "english": "lateral sural cutaneous n. / sural n.",
-    "hint": "X由腓總神經來，常和內側腓腸皮神經合成X，伴小隱靜脈。",
+    "english": "lateral sural cutaneous n.",
+    "hint": "由腓總神經來，常與 medial sural cutaneous n. 交通形成 sural n.。",
     "note": "使用常用名稱整理。",
     "marked": true,
-    "id": "q311-lateral-sural-cutaneous-n-sural-n"
+    "id": "q444-lateral-sural-cutaneous-n"
+  },
+  {
+    "section": "下肢神經",
+    "english": "sural n.",
+    "hint": "由 medial / lateral sural cutaneous nerves 交通形成，伴小隱靜脈。",
+    "note": "使用常用名稱整理。",
+    "marked": true,
+    "id": "q445-sural-n"
   },
   {
     "section": "下肢神經",
@@ -2493,7 +3565,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "坐骨神經內側分支，穿膕窩後進小腿後室，和脛後血管往內踝後方。",
     "note": "",
     "marked": true,
-    "id": "q312-tibial-n"
+    "id": "q446-tibial-n"
   },
   {
     "section": "下肢神經",
@@ -2501,23 +3573,39 @@ window.ANATOMY_QUESTIONS = [
     "hint": "由脛神經分出，與外側腓腸皮神經交通形成腓腸神經。",
     "note": "",
     "marked": true,
-    "id": "q313-medial-sural-cutaneous-n"
+    "id": "q447-medial-sural-cutaneous-n"
   },
   {
     "section": "下肢神經",
-    "english": "lateral / medial plantar n.",
-    "hint": "脛神經在足底分支，X較像手的正中神經，X較深且供外側足底。",
+    "english": "lateral plantar n.",
+    "hint": "脛神經在足底分支，X較深且供X足底。",
     "note": "",
     "marked": true,
-    "id": "q314-lateral-medial-plantar-n"
+    "id": "q448-lateral-plantar-n"
   },
   {
     "section": "下肢神經",
-    "english": "obturator n. anterior / posterior br.",
+    "english": "medial plantar n.",
+    "hint": "脛神經在足底分支，X較像手的正中神經。",
+    "note": "",
+    "marked": true,
+    "id": "q449-medial-plantar-n"
+  },
+  {
+    "section": "下肢神經",
+    "english": "obturator n. anterior br.",
     "hint": "在大腿內側被短收肌分隔，前支在短收肌前，X在短收肌後。",
     "note": "會被內收短肌隔開",
     "marked": true,
-    "id": "q315-obturator-n-anterior-posterior-br"
+    "id": "q450-obturator-n-anterior-br"
+  },
+  {
+    "section": "下肢神經",
+    "english": "obturator n. posterior br.",
+    "hint": "在大腿內側被短收肌分隔，前支在短收肌前，X在短收肌後。",
+    "note": "會被內收短肌隔開",
+    "marked": true,
+    "id": "q451-obturator-n-posterior-br"
   },
   {
     "section": "下肢神經",
@@ -2525,7 +3613,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "臀大肌下緣出來，沿大腿後側表淺下行。",
     "note": "快速確認臀大肌下緣與大腿後側表淺路徑。",
     "marked": true,
-    "id": "q316-posterior-femoral-cutaneous-n"
+    "id": "q452-posterior-femoral-cutaneous-n"
   },
   {
     "section": "韌帶、膝關節與肌腱",
@@ -2533,7 +3621,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "薦骨到坐骨結節的厚韌帶；會陰部看到它要聯想到內陰血管與陰部神經路徑。",
     "note": "",
     "marked": false,
-    "id": "q317-sacrotuberous-ligament"
+    "id": "q453-sacrotuberous-ligament"
   },
   {
     "section": "韌帶、膝關節與肌腱",
@@ -2541,7 +3629,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "大腿外側厚筋膜帶，由闊筋膜張肌與臀大肌連到脛骨外側；切開可見臀中、小肌。",
     "note": "",
     "marked": true,
-    "id": "q318-iliotibial-tract"
+    "id": "q454-iliotibial-tract"
   },
   {
     "section": "韌帶、膝關節與肌腱",
@@ -2549,15 +3637,23 @@ window.ANATOMY_QUESTIONS = [
     "hint": "縫匠肌、股薄肌、半腱肌三條肌腱在脛骨內側近端共同附著。",
     "note": "綁了三條肌腱就是它",
     "marked": true,
-    "id": "q319-pes-anserinus"
+    "id": "q455-pes-anserinus"
   },
   {
     "section": "韌帶、膝關節與肌腱",
-    "english": "lateral / medial collateral ligament",
-    "hint": "膝關節兩側穩定韌帶；X像索狀，可能偽裝成腓總神經，要看是否為白色韌帶附著骨頭。",
-    "note": "外側有時候會偽裝成 common fibular n.",
+    "english": "lateral collateral ligament",
+    "hint": "膝關節兩側穩定韌帶；X像索狀。",
+    "note": "X有時候會偽裝成 common fibular n.",
     "marked": true,
-    "id": "q320-lateral-medial-collateral-ligament"
+    "id": "q456-lateral-collateral-ligament"
+  },
+  {
+    "section": "韌帶、膝關節與肌腱",
+    "english": "medial collateral ligament",
+    "hint": "膝關節兩側穩定韌帶；X像索狀，可能偽裝成腓總神經，要看是否為白色韌帶附著骨頭。",
+    "note": "X有時候會偽裝成 common fibular n.",
+    "marked": true,
+    "id": "q457-medial-collateral-ligament"
   },
   {
     "section": "韌帶、膝關節與肌腱",
@@ -2565,7 +3661,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "腓腸肌與比目魚肌共同腱，連到跟骨後方，粗大明顯。",
     "note": "",
     "marked": false,
-    "id": "q321-achilles-tendon"
+    "id": "q458-achilles-tendon"
   },
   {
     "section": "韌帶、膝關節與肌腱",
@@ -2573,7 +3669,7 @@ window.ANATOMY_QUESTIONS = [
     "hint": "髕骨下緣到脛骨粗隆；膝前正中強韌帶。",
     "note": "",
     "marked": false,
-    "id": "q322-patellar-ligament"
+    "id": "q459-patellar-ligament"
   },
   {
     "section": "韌帶、膝關節與肌腱",
@@ -2581,23 +3677,39 @@ window.ANATOMY_QUESTIONS = [
     "hint": "X匯入髕骨上緣的腱，位於髕骨上方。",
     "note": "",
     "marked": false,
-    "id": "q323-quadriceps-tendon"
+    "id": "q460-quadriceps-tendon"
   },
   {
     "section": "韌帶、膝關節與肌腱",
-    "english": "anterior / posterior cruciate ligament",
-    "hint": "在膝關節內交叉；X由脛骨前方向股骨外髁內側，X由脛骨後方向股骨內髁外側。",
+    "english": "anterior cruciate ligament",
+    "hint": "在膝關節內交叉；X由脛骨前方向股骨外髁內側。",
     "note": "操刀切斷時可能撿起來考",
     "marked": true,
-    "id": "q324-anterior-posterior-cruciate-ligament"
+    "id": "q461-anterior-cruciate-ligament"
   },
   {
     "section": "韌帶、膝關節與肌腱",
-    "english": "lateral / medial meniscus",
-    "hint": "脛骨平台上的纖維軟骨墊；外側較圓，內側較 C 形且較寬。",
+    "english": "posterior cruciate ligament",
+    "hint": "在膝關節內交叉；X由脛骨後方向股骨內髁外側。",
+    "note": "操刀切斷時可能撿起來考",
+    "marked": true,
+    "id": "q462-posterior-cruciate-ligament"
+  },
+  {
+    "section": "韌帶、膝關節與肌腱",
+    "english": "lateral meniscus",
+    "hint": "脛骨平台上的纖維軟骨墊；X較圓。",
     "note": "重要，不難",
     "marked": true,
-    "id": "q325-lateral-medial-meniscus"
+    "id": "q463-lateral-meniscus"
+  },
+  {
+    "section": "韌帶、膝關節與肌腱",
+    "english": "medial meniscus",
+    "hint": "脛骨平台上的纖維軟骨墊；X較 C 形且較寬。",
+    "note": "重要，不難",
+    "marked": true,
+    "id": "q464-medial-meniscus"
   },
   {
     "section": "韌帶、膝關節與肌腱",
@@ -2605,6 +3717,6 @@ window.ANATOMY_QUESTIONS = [
     "hint": "膝關節腔內髕骨下方的滑膜皺襞，常在切開膝關節後看到。",
     "note": "",
     "marked": false,
-    "id": "q326-infrapatellar-synovial-fold"
+    "id": "q465-infrapatellar-synovial-fold"
   }
 ];
