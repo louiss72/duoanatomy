@@ -4,5 +4,7 @@ Mobile-first static practice page generated from `解剖單字表_跑台辨認�
 
 - `index.html` is the GitHub Pages entry point.
 - `questions.js` contains the generated 326-question bank.
+- Prompts show runway identification hints only; Chinese structure names are not shown during practice.
+- The visible filters are grouped into 頭部 / 腹部 / 會陰 / 下肢.
 - Progress is stored in the browser with `localStorage`.
 - Wrong answers stay in the deck and receive higher random-selection weight.

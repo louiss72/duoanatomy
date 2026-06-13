@@ -4,13 +4,37 @@
   const questions = Array.isArray(window.ANATOMY_QUESTIONS) ? window.ANATOMY_QUESTIONS : [];
   const storageKey = "anatomy-runway-practice:v1";
   const maxHistory = 24;
+  const regionOrder = ["頭部", "腹部", "會陰", "下肢"];
+  const regionBySection = new Map([
+    ["咀嚼肌與表情肌", "頭部"],
+    ["眼外肌", "頭部"],
+    ["總頸動脈、外頸動脈與 內頸動脈分支", "頭部"],
+    ["靜脈與硬腦膜靜脈竇", "頭部"],
+    ["腦神經、分支、神經節與腺體", "頭部"],
+    ["腹壁、後腹壁與膈肌", "腹部"],
+    ["腹腔與骨盆入口動脈", "腹部"],
+    ["腹腔靜脈", "腹部"],
+    ["腹腔神經", "腹部"],
+    ["腹腔臟器、韌帶與腸繫膜血管", "腹部"],
+    ["骨盆底與會陰肌", "會陰"],
+    ["內髂動脈及其分支", "會陰"],
+    ["骨盆與會陰靜脈", "會陰"],
+    ["骨盆神經", "會陰"],
+    ["生殖器與相關結構", "會陰"],
+    ["大腿與臀區肌肉", "下肢"],
+    ["小腿與足部肌肉", "下肢"],
+    ["下肢動脈", "下肢"],
+    ["下肢靜脈", "下肢"],
+    ["下肢神經", "下肢"],
+    ["韌帶、膝關節與肌腱", "下肢"],
+  ]);
 
   const state = {
     current: null,
     choices: [],
     answered: false,
     lastId: "",
-    section: "all",
+    region: "all",
     markedOnly: false,
     stats: loadStats(),
   };
@@ -24,7 +48,6 @@
     poolStat: document.getElementById("poolStat"),
     sectionBadge: document.getElementById("sectionBadge"),
     markedBadge: document.getElementById("markedBadge"),
-    chinesePrompt: document.getElementById("chinesePrompt"),
     hintPrompt: document.getElementById("hintPrompt"),
     historyRow: document.getElementById("historyRow"),
     optionGrid: document.getElementById("optionGrid"),
@@ -41,7 +64,7 @@
   function init() {
     populateSections();
     els.sectionSelect.addEventListener("change", () => {
-      state.section = els.sectionSelect.value;
+      state.region = els.sectionSelect.value;
       nextQuestion();
     });
     els.markedOnly.addEventListener("change", () => {
@@ -55,10 +78,9 @@
   }
 
   function populateSections() {
-    const sections = [...new Set(questions.map((item) => item.section))].filter(Boolean);
     els.sectionSelect.innerHTML = "";
     els.sectionSelect.append(new Option("全部", "all"));
-    sections.forEach((section) => els.sectionSelect.append(new Option(section, section)));
+    regionOrder.forEach((region) => els.sectionSelect.append(new Option(region, region)));
   }
 
   function loadStats() {
@@ -90,7 +112,7 @@
 
   function filteredQuestions() {
     return questions.filter((item) => {
-      if (state.section !== "all" && item.section !== state.section) return false;
+      if (state.region !== "all" && getRegion(item) !== state.region) return false;
       if (state.markedOnly && !item.marked) return false;
       return true;
     });
@@ -151,9 +173,8 @@
     const stats = getStats(item.id);
     applyTone(stats);
 
-    els.sectionBadge.textContent = item.section;
+    els.sectionBadge.textContent = `${getRegion(item)} / ${item.section}`;
     els.markedBadge.hidden = !item.marked;
-    els.chinesePrompt.textContent = item.chinese;
     els.hintPrompt.textContent = item.hint;
     renderHistory(stats);
 
@@ -248,8 +269,7 @@
     applyTone({ seen: 0, correct: 0, history: [] });
     els.sectionBadge.textContent = "無題目";
     els.markedBadge.hidden = true;
-    els.chinesePrompt.textContent = "目前篩選沒有題目";
-    els.hintPrompt.textContent = "";
+    els.hintPrompt.textContent = "目前篩選沒有題目";
     els.historyRow.innerHTML = "";
     els.optionGrid.innerHTML = "";
     els.feedback.hidden = true;
@@ -285,5 +305,9 @@
       [items[index], items[other]] = [items[other], items[index]];
     }
     return items;
+  }
+
+  function getRegion(item) {
+    return item.region || regionBySection.get(item.section) || "其他";
   }
 })();
