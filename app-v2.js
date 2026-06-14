@@ -55,6 +55,11 @@
     resultText: document.getElementById("resultText"),
     answerText: document.getElementById("answerText"),
     noteText: document.getElementById("noteText"),
+    imagePanel: document.getElementById("imagePanel"),
+    answerImage: document.getElementById("answerImage"),
+    imageCaption: document.getElementById("imageCaption"),
+    imageLink: document.getElementById("imageLink"),
+    imageLicense: document.getElementById("imageLicense"),
     skipButton: document.getElementById("skipButton"),
     nextButton: document.getElementById("nextButton"),
   };
@@ -183,6 +188,7 @@
     els.resultText.textContent = "";
     els.answerText.textContent = "";
     els.noteText.textContent = "";
+    hideAnswerImage();
     els.nextButton.disabled = false;
 
     els.optionGrid.innerHTML = "";
@@ -239,6 +245,7 @@
     els.resultText.textContent = correct ? "答對" : "再看一次";
     els.answerText.textContent = item.english;
     els.noteText.textContent = item.note ? `原附註：${item.note}` : "";
+    renderAnswerImage(item, correct);
 
     applyTone(stats);
     renderHistory(stats);
@@ -274,6 +281,44 @@
     els.optionGrid.innerHTML = "";
     els.feedback.hidden = true;
     renderStats([]);
+  }
+
+  function renderAnswerImage(item, correct) {
+    const image = item.image;
+    if (correct || !image || !image.url) {
+      hideAnswerImage();
+      return;
+    }
+
+    const sourceName = image.sourceName || "來源";
+    const title = image.title || `${item.english} anatomy image`;
+    els.answerImage.src = image.url;
+    els.answerImage.alt = title;
+    els.answerImage.onload = () => {
+      window.requestAnimationFrame(() => {
+        els.imagePanel.scrollIntoView({ block: "end", behavior: "smooth" });
+      });
+    };
+    els.answerImage.onerror = hideAnswerImage;
+    els.imageCaption.textContent = title;
+    els.imageLink.href = image.sourceUrl || image.url;
+    els.imageLink.textContent = sourceName;
+    els.imageLicense.textContent = [image.license, image.attribution].filter(Boolean).join(" · ");
+    els.imageLicense.hidden = !els.imageLicense.textContent;
+    els.imagePanel.hidden = false;
+  }
+
+  function hideAnswerImage() {
+    els.imagePanel.hidden = true;
+    els.answerImage.removeAttribute("src");
+    els.answerImage.alt = "";
+    els.answerImage.onload = null;
+    els.answerImage.onerror = null;
+    els.imageCaption.textContent = "";
+    els.imageLink.removeAttribute("href");
+    els.imageLink.textContent = "來源";
+    els.imageLicense.textContent = "";
+    els.imageLicense.hidden = true;
   }
 
   function applyTone(stats) {

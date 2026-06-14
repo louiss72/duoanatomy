@@ -299,8 +299,8 @@ h2 {
 .feedback {
   border-top: 1px solid var(--line);
   padding-top: 12px;
-  margin-bottom: 72px;
-  scroll-margin-bottom: 96px;
+  margin-bottom: 104px;
+  scroll-margin-bottom: 118px;
 }
 
 .feedback p {
@@ -324,6 +324,52 @@ h2 {
 
 .feedback.bad strong {
   color: var(--bad);
+}
+
+.answer-image {
+  margin: 12px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+  overflow: hidden;
+  scroll-margin-bottom: 118px;
+}
+
+.answer-image img {
+  display: block;
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+.answer-image figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 10px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.answer-image figcaption span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.answer-image a {
+  color: var(--blue);
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.image-license {
+  padding: 0 10px 10px;
+  font-size: 0.72rem;
+  overflow-wrap: anywhere;
 }
 
 .action-row {
